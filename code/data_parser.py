@@ -1,107 +1,65 @@
-import pandas as pd
-import numpy as np
+#!/usr/bin/env python3
+
+# command line args
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--date',required=True)
+args = parser.parse_args()
+
+# imports
 import os
-import datetime
-from textblob import TextBlob
+import zipfile
+import datetime 
+import json
+import pandas as pd
 
-data_dir = "/home/ltam/new_dm/"
-project_path = "/home/ltam/new_cs/"
+# load keywords
+keywords  = [
+    'travel',
+    'trip',
+    'flight',
+    ]
 
-BA18 = ["bachelor", ]
+# open the zipfile
+with zipfile.ZipFile('geoTwitter' + args.date + '.zip') as archive:
 
+    # loop over every file within the zip file
+    for i,filename in enumerate(archive.namelist()):
+        print(datetime.datetime.now(),args.date,filename)
 
-def generate_words(data):
-    # data(str): csv on show info
-    # eg: Bachelor_S22_2018.csv
-    words = []
-    df = pd.read_csv(os.path.join(project_path, "show_info", data))
+        # open the inner file
+        with archive.open(filename) as f:
 
-    #words = ["bachelor", "bachelornation", "bachelorabc", "the bachelor"]  # change to bachelorette if neccessary
+            tweets = [] 
+            
+            # loop over each line in the inner file
+            for line in f:
+                # load the tweet as a python dictionary
+                tweet = json.loads(line)
 
-    for i in range(len(df["name"])):
-        words.append(df["name"][i])
-        words.append(df["twitter_handle"][i])
+                text = tweet['text'].lower()
+                
+                # search hashtags
+                for keyword in keywords:
+                    if keyword in text:
+                        if tweet \
+                           and isinstance(tweet, dict) \
+                           and 'place' in tweet \
+                           and isinstance(tweet['place'], dict) \
+                           and tweet['place']['country_code'] == 'US' \
+                           and tweet['place']['place_type']=='city':
 
-    return words
+                           # print(main_dict)
+                            tweet_dict = {
+                            "text": tweet['text'],
+                            "date": tweet["created_at"],
+                            # "verified": main_dict['user']['verified'],
+                            "city": tweet['place']['name'],
+                            # "country": main_dict['place']['country_code'],
+                            "state": tweet['place']["full_name"][-2:]
+                            }
+                            tweets.append(tweet_dict)
 
-
-def test_season(words, csv_dir):
-    # key_words(list): information related to season
-    # csv_dir(str): location data is stored
-
-    data = pd.DataFrame(columns=['text', 'date', 'city', 'state'])
-
-    for filename in os.listdir(csv_dir):
-        if not filename.endswith(".csv"):
-            continue
-
-        csv_path = os.path.join(csv_dir, filename)
-        try:
-            df = pd.read_csv(csv_path, error_bad_lines=False, encoding='utf-8', engine='python')
-        except Exception:
-            print(csv_path)
-            os.remove(csv_path)
-            continue
-
-        df = df[['text', 'date', 'city', 'state']]
-        df = df.dropna()
-        df_subset = df[df['text'].str.contains('|'.join(words))]
-        data = pd.concat([data, df_subset], axis=0)
-
-    data = data.reset_index(drop=True)
-    data['polarity'] = data['text'].apply(lambda tweet: TextBlob(tweet).sentiment.polarity)
-
-    return data
-
-def main(csv_name, start_date, end_date, words, n_days=None):
-
-    print("searching between {} to {}".format(start_date, end_date))
-    save_dir = os.path.join(project_path, "cleaned")
-
-    total_days = (end_date - start_date).days + 1
-    data = pd.DataFrame(columns=['text', 'date', 'city', 'state'])
-
-    for i, date in enumerate(start_date + datetime.timedelta(n) for n in range(total_days)):
-        year = date.year
-        month = date.month
-        day = date.day
-
-        if n_days and i >= n_days:
-            break
-
-        tweet_day_path = os.path.join(data_dir, "data", "geoTwitter{}-{:0>2d}-{:0>2d}".format(year % 100, month, day))
-        if not os.path.exists(tweet_day_path):
-            print("Unable to find {}".format(tweet_day_path))
-            continue
-
-        day_csv = test_season(words, tweet_day_path)
-        data = pd.concat([data, day_csv], axis=0, sort=True)
-
-        if i % 10 == 0:
-            print("{}/{}: finished {}/{}/{}".format(i, total_days, month, day, year))
-
-    if not os.path.exists(save_dir):
-        os.makedirs(save_dir)
-
-    data.to_csv(os.path.join(save_dir, csv_name))
-    print("completed {}".format(csv_name))
-
-
-if __name__ == "__main__":
-    start_2018 = datetime.date(2017, 12, 9) # bachelorettes announced
-    end_2018 = datetime.date(2018, 3, 18) # roughly one week after season end
-
-    start_2019 = datetime.date(2018, 12, 6)  # bachelorettes announced
-    end_2019 = datetime.date(2019, 3, 18)  # roughly one week after season end
-
-    start_2019_ette = datetime.date(2019, 3, 14)  # bachelors announced
-    end_2019_ette = datetime.date(2019, 7, 7)  # roughly one week after season end
-
-    words_2018 = generate_words("Bachelor_2018.csv")
-    #words_2019 = generate_words("Bachelor_2019.csv")
-    #words_2019_ette = generate_words("Bachelorette_S15_2019.csv")
-
-    main("Bachelor_2018.csv", start_2018, end_2018, words_2018)
-    #main("Bachelor_2019.csv", start_2019, end_2019, words_2019)
-    #main("Bachelorette_S15_2019.csv", start_2019_ette, end_2019_ette, words_2019_ette)
-
+                            
+            subfile_df = pd.DataFrame(tweets)
+            subfile_df.to_csv(args.date + '.csv', index=False)
