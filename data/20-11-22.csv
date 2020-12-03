@@ -1,205 +1,458 @@
-city,date,state,text
-Tustin,Sun Nov 22 23:00:31 +0000 2020,CA,"The older you get, the more you except the truth that sleep is not only a good way to get rest, but also a handy form of time travel."
-Knoxville,Sun Nov 22 23:01:03 +0000 2020,TN,Evening hot chocolate in my mug from Dublin. It was a great trip @tncis with amazing educators from… https://t.co/GkD6QhGbd1
-Brentwood,Sun Nov 22 23:01:13 +0000 2020,NY,@khromtx For sure ! It’s these MF’s Hoarding shit to flip for tripple the price fucking all these releases up
-Las Vegas,Sun Nov 22 23:01:49 +0000 2020,NV,Fully Stocked for the last time this trip!! I ordered my last @WholeFoods order!! This is the #OrganicBeef &amp; water… https://t.co/nbyNd3jsBY
-Las Vegas,Sun Nov 22 23:02:19 +0000 2020,NV,Fully Stocked for the last time this trip!! I ordered my last @WholeFoods order!! This is the #OrganicBeef &amp; water… https://t.co/5i9xja11DJ
-Los Angeles,Sun Nov 22 23:02:33 +0000 2020,CA,@mutsack This would’ve tripled box office numbers.
-Lake Magdalene,Sun Nov 22 23:02:34 +0000 2020,FL,Drug dealer to stripper to bottle girl - I think I did everything out of order LMFAO
-Haughton,Sun Nov 22 23:02:34 +0000 2020,LA,"Saying a 🙏🏻 for Tripp, hoping he is ok."
-Denver,Sun Nov 22 23:02:48 +0000 2020,CO,@zoecech Yessss I see so many tripods here
-Akron,Sun Nov 22 23:02:52 +0000 2020,OH,Well I see I’m doing all my senior year stuff on my lonely. Stripper it is.
+city,date,state,text,polarity
+Ojai,Sun Nov 22 23:00:17 +0000 2020,CA,"What are you thankful for this Thanksgiving? 🦃🍂✨ #thanksgiving #rains #rainsofojai #local #shoplocal @ Ojai, Califo… https://t.co/0oSyiKHuX2",0.0
+Tustin,Sun Nov 22 23:00:31 +0000 2020,CA,"The older you get, the more you except the truth that sleep is not only a good way to get rest, but also a handy form of time travel.",0.39333333333333337
+Paulins Kill,Sun Nov 22 23:00:54 +0000 2020,NJ,"my birthdays on Thanksgiving, i’ll be at the game section 227 Row M, Let me get another one i’ll be repping #19",-0.4
+Solvay,Sun Nov 22 23:00:56 +0000 2020,NY,I can’t wait to cook this thanksgiving 🦃,0.0
+Brookings,Sun Nov 22 23:01:02 +0000 2020,SD,#If2020WereAThanksgivingDish we'd trade dinner for the epicac episode of @FamilyGuyonFOX https://t.co/5k3sZHT7OH,0.0
+Knoxville,Sun Nov 22 23:01:03 +0000 2020,TN,Evening hot chocolate in my mug from Dublin. It was a great trip @tncis with amazing educators from… https://t.co/GkD6QhGbd1,0.55
+Peachtree City,Sun Nov 22 23:01:10 +0000 2020,GA,I don’t think I’ve ever had less “holiday spirit” than I do right now. I’m usually excited about Thanksgiving and C… https://t.co/6kyDwmKbgW,0.16468253968253968
+Brentwood,Sun Nov 22 23:01:13 +0000 2020,NY,@khromtx For sure ! It’s these MF’s Hoarding shit to flip for tripple the price fucking all these releases up,-0.05833333333333333
+Eagleville,Sun Nov 22 23:01:18 +0000 2020,PA,#If2020WereAThanksgivingDish it would probably be a green bean casserole because nobody I know wants that.,0.0
+Las Vegas,Sun Nov 22 23:01:49 +0000 2020,NV,Fully Stocked for the last time this trip!! I ordered my last @WholeFoods order!! This is the #OrganicBeef &amp; water… https://t.co/nbyNd3jsBY,0.0
+Oak Grove,Sun Nov 22 23:02:00 +0000 2020,KY,"Things your neighbors do.   #turkey, #Thanksgiving, #thingsyourneighborsdo @ Oak Grove, Kentucky https://t.co/v2MWe876Wa",0.0
+Las Vegas,Sun Nov 22 23:02:19 +0000 2020,NV,Fully Stocked for the last time this trip!! I ordered my last @WholeFoods order!! This is the #OrganicBeef &amp; water… https://t.co/5i9xja11DJ,0.0
+Los Angeles,Sun Nov 22 23:02:33 +0000 2020,CA,@mutsack This would’ve tripled box office numbers.,0.0
+Lake Magdalene,Sun Nov 22 23:02:34 +0000 2020,FL,Drug dealer to stripper to bottle girl - I think I did everything out of order LMFAO,0.0
+Haughton,Sun Nov 22 23:02:34 +0000 2020,LA,"Saying a 🙏🏻 for Tripp, hoping he is ok.",0.5
+Greenbelt,Sun Nov 22 23:02:47 +0000 2020,MD,Newhart Thanksgiving episode on MeTV tonight. I wouldn't mind seeing this replace Gomer Pyle on weeknights.,0.0
+Denver,Sun Nov 22 23:02:48 +0000 2020,CO,@zoecech Yessss I see so many tripods here,0.5
+Akron,Sun Nov 22 23:02:52 +0000 2020,OH,Well I see I’m doing all my senior year stuff on my lonely. Stripper it is.,-0.09999999999999998
+East Patchogue,Sun Nov 22 23:03:22 +0000 2020,NY,“Will you be missing a racist uncle this Thanksgiving?! Rent one on Parler!”,-0.3125
 Fort Wright,Sun Nov 22 23:03:27 +0000 2020,KY,"@TripleH @ShawnMichaels @undertaker The FINAL goodbye..... AGAIN
-Just like @kiss &amp; @RollingStones #wwe"
+Just like @kiss &amp; @RollingStones #wwe",0.0
+Los Angeles,Sun Nov 22 23:03:43 +0000 2020,CA,@RyManMD I’d cancel thanksgiving but you know I don’t know what you mean https://t.co/eOku3vJT7G,-0.3125
 Yonkers,Sun Nov 22 23:03:52 +0000 2020,NY,"@barrabirder Outstanding!
-That's a long trip for a tiny bird, it sounds like a typical first year, 90° off of intended migration fail."
+That's a long trip for a tiny bird, it sounds like a typical first year, 90° off of intended migration fail.",0.02638888888888889
 Chaska,Sun Nov 22 23:03:53 +0000 2020,MN,"@KFAN1003 @Vikings  1st Half Summary:
 -Refs miss Targeting on Cousins, rule it a strip/fumble. 
--Harrison Smith fla… https://t.co/2XywNPBlNt"
-Manhattan,Sun Nov 22 23:04:00 +0000 2020,NY,3 trips in the next two months? ⛽️
-Fairfield,Sun Nov 22 23:04:08 +0000 2020,CA,Oman has been traveling back-and-forth between California and Japan for the last three weeks and today I called him… https://t.co/gaAmaW2ry5
-Dallas,Sun Nov 22 23:05:15 +0000 2020,TX,I don’t know how to get my hair for this trip. 🥴
-Pearl River,Sun Nov 22 23:05:23 +0000 2020,LA,Rd 1 question. If 1 team advances because of Covid - does it count has a home game played. So would they travel  we… https://t.co/LGpwynkNOT
-Sioux Falls,Sun Nov 22 23:05:31 +0000 2020,SD,@ty08358360 @DominicScelzi41 @GioScelzi If @JodyRosenboom puts you in a car I'll cancel my trip to Jamaica just to deliver your drinks
-Redondo Beach,Sun Nov 22 23:06:14 +0000 2020,CA,tripleeeee del bichooooo siiiuuuu #GoAtheris
+-Harrison Smith fla… https://t.co/2XywNPBlNt",-0.16666666666666666
+Manhattan,Sun Nov 22 23:04:00 +0000 2020,NY,3 trips in the next two months? ⛽️,0.0
+Fairfield,Sun Nov 22 23:04:08 +0000 2020,CA,Oman has been traveling back-and-forth between California and Japan for the last three weeks and today I called him… https://t.co/gaAmaW2ry5,0.0
+El Paso,Sun Nov 22 23:04:39 +0000 2020,TX,hey just wanted to say it’s best to just tell people “happy holidays” instead of “happy thanksgiving” or “merry Chr… https://t.co/Qrrq6XN4xh,0.8666666666666667
+Deale,Sun Nov 22 23:04:41 +0000 2020,MD,Thanksgiving is about to be lit.,0.0
+Colfax,Sun Nov 22 23:05:00 +0000 2020,CA,I’m making our first thanksgiving dinner at home this year and Zachs dad is coming over and I’m so excited about it 🥺,0.3125
+Kenmore,Sun Nov 22 23:05:09 +0000 2020,NY,Be extra thankful for what you have this year for thanksgiving. So many people have lost a lot. Appreciate everything.,0.25
+Dallas,Sun Nov 22 23:05:15 +0000 2020,TX,I don’t know how to get my hair for this trip. 🥴,0.0
+Manhattan,Sun Nov 22 23:05:18 +0000 2020,NY,"No, seriously. Why am I spending Thanksgiving alone whilst everyone else's mother is whacking people in the face wi… https://t.co/AdpFyiGfB5",0.16666666666666666
+Pearl River,Sun Nov 22 23:05:23 +0000 2020,LA,Rd 1 question. If 1 team advances because of Covid - does it count has a home game played. So would they travel  we… https://t.co/LGpwynkNOT,-0.4
+Brooklyn,Sun Nov 22 23:05:25 +0000 2020,NY,#thanksgivingbeers #thanksgivingcider #thanksgivingaf #craftbeer #craftcider #thankful #turkeybeers #windsorterrace… https://t.co/EVISvHvkbE,0.0
+Sioux Falls,Sun Nov 22 23:05:31 +0000 2020,SD,@ty08358360 @DominicScelzi41 @GioScelzi If @JodyRosenboom puts you in a car I'll cancel my trip to Jamaica just to deliver your drinks,0.0
+Philadelphia,Sun Nov 22 23:05:46 +0000 2020,PA,The Eagles made me cranky enough to break a cardinal rule: I put the Christmas lights up before Thanksgiving,0.0
+Houston,Sun Nov 22 23:05:57 +0000 2020,TX,"PREVIEW: (Check my FB page at 5PM on Monday for the full video!!) 
+
+Karen's Kitchen - Kim's Corn Bake (Thanksgiving… https://t.co/DjgsGnEtEz",-0.1015625
+Brooklyn,Sun Nov 22 23:06:07 +0000 2020,NY,Tired Boy Thanksgiving,-0.4
+Redondo Beach,Sun Nov 22 23:06:14 +0000 2020,CA,tripleeeee del bichooooo siiiuuuu #GoAtheris,0.0
+Stockton,Sun Nov 22 23:06:18 +0000 2020,CA,"The grace that is reaching more and more people may cause thanksgiving to overflow to the glory of God. 
+
+Therefore… https://t.co/WmREGJ7szM",0.5
 Denver,Sun Nov 22 23:06:36 +0000 2020,CO,"⚠️ LIFE UPDATE ⚠️
 
 Tes and I are in dire need of 2 boys that can match our energy. Serious inquiries only! 
 
-Trip t… https://t.co/0kz4vhYqb5"
-Huntsville,Sun Nov 22 23:06:37 +0000 2020,TX,I need a peaceful trip soon
-Los Angeles,Sun Nov 22 23:06:41 +0000 2020,CA,@MsCherryHeart *books flight*
-Los Angeles,Sun Nov 22 23:06:53 +0000 2020,CA,Never felt so sick about catching a flight
-Los Angeles,Sun Nov 22 23:06:57 +0000 2020,CA,The helmets look so much better with the stripes #HTTR https://t.co/gAkdjPhZIX
-West Hartford,Sun Nov 22 23:07:12 +0000 2020,CT,"@paullicino Theorizing that one could time travel within his own lifetime, Dr. Sam Beckett stepped into the Quantum… https://t.co/wQEJ3Dt9x8"
-Boston,Sun Nov 22 23:07:40 +0000 2020,MA,@_Sasha_Marie I have a friend and her and her whole family absolutely love ice.. Never forget a road trip I took wi… https://t.co/4JuPSc3abw
-Newport News,Sun Nov 22 23:07:47 +0000 2020,VA,Just posted a photo @ Triple Effectz Ultra Lounge https://t.co/lF5Dh9W2Go
-Sacramento,Sun Nov 22 23:07:59 +0000 2020,CA,2020 a trip lmao
-Kenner,Sun Nov 22 23:08:38 +0000 2020,LA,"That’s a Who Dat victory beer! #parishbrewingco #attacus #tripleipa @ Kenner, Louisiana https://t.co/KdGiVutdTL"
+Trip t… https://t.co/0kz4vhYqb5",-0.16666666666666666
+Huntsville,Sun Nov 22 23:06:37 +0000 2020,TX,I need a peaceful trip soon,0.25
+Los Angeles,Sun Nov 22 23:06:41 +0000 2020,CA,@MsCherryHeart *books flight*,0.0
+Conway,Sun Nov 22 23:06:45 +0000 2020,AR,So you guys going home to spread COVID for Thanksgiving or are you responsible?,0.2
+Los Angeles,Sun Nov 22 23:06:53 +0000 2020,CA,Never felt so sick about catching a flight,-0.05714285714285716
+Los Angeles,Sun Nov 22 23:06:57 +0000 2020,CA,The helmets look so much better with the stripes #HTTR https://t.co/gAkdjPhZIX,0.5
+Los Angeles,Sun Nov 22 23:07:02 +0000 2020,CA,In the spirit of thanksgiving white ppl in Orange County will be out in the streets spreading diseases.,0.0
+West Hartford,Sun Nov 22 23:07:12 +0000 2020,CT,"@paullicino Theorizing that one could time travel within his own lifetime, Dr. Sam Beckett stepped into the Quantum… https://t.co/wQEJ3Dt9x8",0.6
+Sacramento,Sun Nov 22 23:07:13 +0000 2020,CA,"Did our Thanksgiving shopping for two, sad we can’t celebrate with the whole family but happy we are keep each othe… https://t.co/jYImszp7Fn",0.16666666666666666
+Redondo Beach,Sun Nov 22 23:07:31 +0000 2020,CA,Sauternes is the perfect #Thanksgiving #wine. Don’t @ me unless you agree. https://t.co/qWmUsZ6P7q,1.0
+Media,Sun Nov 22 23:07:39 +0000 2020,PA,Happy Thanksgiving? https://t.co/FlGMRyfdqd,0.8
+Boston,Sun Nov 22 23:07:40 +0000 2020,MA,@_Sasha_Marie I have a friend and her and her whole family absolutely love ice.. Never forget a road trip I took wi… https://t.co/4JuPSc3abw,0.35
+Philadelphia,Sun Nov 22 23:07:45 +0000 2020,PA,@booker_julian Good! Have a Happy Thanksgiving! https://t.co/56YjD2Vjhp,0.9375
+Newport News,Sun Nov 22 23:07:47 +0000 2020,VA,Just posted a photo @ Triple Effectz Ultra Lounge https://t.co/lF5Dh9W2Go,0.0
+Sacramento,Sun Nov 22 23:07:59 +0000 2020,CA,2020 a trip lmao,0.6
+Los Angeles,Sun Nov 22 23:07:59 +0000 2020,CA,In the spirit of thanksgiving white ppl in Orange County will be out in the streets spreading diseases all week.,0.0
+Holmen,Sun Nov 22 23:07:59 +0000 2020,WI,@PadmaLakshmi I make turducken hamburgers or meatballs for Thanksgiving with bacon wrapped stuffing balls.,0.0
+Kenner,Sun Nov 22 23:08:38 +0000 2020,LA,"That’s a Who Dat victory beer! #parishbrewingco #attacus #tripleipa @ Kenner, Louisiana https://t.co/KdGiVutdTL",0.0
+West Hartford,Sun Nov 22 23:08:40 +0000 2020,CT,Thanksgiving Beggar’s chicken on track. @ Chateau Mcmanus-Kootsookos https://t.co/w6iabdkpqp,-0.6
+Charlotte,Sun Nov 22 23:08:44 +0000 2020,NC,"Perhaps being selfless ❤ is the best way to show gratitude this #Thanksgiving2020. 
+
+#StaySafe #covid19 #StayHome… https://t.co/RByaAUQj4P",1.0
+Sacramento,Sun Nov 22 23:09:06 +0000 2020,CA,"Did our Thanksgiving shopping for two, sad we can’t celebrate with the whole family but happy we are keeping each o… https://t.co/If4B70Ivp9",0.16666666666666666
+Alhambra,Sun Nov 22 23:09:11 +0000 2020,CA,"In need of a thanksgiving outfit? 😻 
+Our Chelsea Skirt Set is $24 today only during our Pre Black Friday Sale!! 
+We… https://t.co/d0D2rtF05s",-0.13020833333333331
 Louisville,Sun Nov 22 23:09:18 +0000 2020,KY,"‘Better to trip with the feet than with the tongue.’ 
 
-— Zeno, quoted in ‘Lives of the Eminent Philosophers, Diogenes Laertius"
-San Diego,Sun Nov 22 23:09:42 +0000 2020,CA,@sandy80857219 So do we keep the faith or move on to other subjects? As for me I’m just enjoying life traveling wor… https://t.co/UmFoO9AOq2
-El Paso,Sun Nov 22 23:09:49 +0000 2020,TX,@charliekirk11 Here it was a Republican mayor who broke the tie in keeping strip club open. Get your fact correct.
-San Antonio,Sun Nov 22 23:10:21 +0000 2020,TX,@Dnova89 @swjay_ @Triple333Bre @Millie_Milz @MirandaTijernia Its all cap bro 😂hes a comedian they dont know each ot… https://t.co/xqMF68dRdT
-Houston,Sun Nov 22 23:10:29 +0000 2020,TX,Flight at 9am tomorrow so packing now that way I don’t have to do much when I come back from going out tonight
-Youngstown,Sun Nov 22 23:10:31 +0000 2020,OH,"I go everywhere prepared, that's why I skip shows if I'm not. The flight to vegas I read 90 pages of a novel to get… https://t.co/QzHI3Lc2jV"
+— Zeno, quoted in ‘Lives of the Eminent Philosophers, Diogenes Laertius",0.5
+Oklahoma City,Sun Nov 22 23:09:20 +0000 2020,OK,"👉🏼 🦃 🗣🔊 Polished Nail Salon will be CLOSED Thursday, November 26th for Thanksgiving Day and Friday, November 27th f… https://t.co/oYMwu36ht2",-0.1
+San Diego,Sun Nov 22 23:09:42 +0000 2020,CA,@sandy80857219 So do we keep the faith or move on to other subjects? As for me I’m just enjoying life traveling wor… https://t.co/UmFoO9AOq2,0.1875
+El Paso,Sun Nov 22 23:09:49 +0000 2020,TX,@charliekirk11 Here it was a Republican mayor who broke the tie in keeping strip club open. Get your fact correct.,0.0
+Bradley,Sun Nov 22 23:09:50 +0000 2020,IL,Hate that my brain has entered thanksgiving mode when i have assignments due tonight,-0.4625
+Sebastian,Sun Nov 22 23:10:11 +0000 2020,FL,"Hey Bryce, beautiful family. Happy Thanksgiving. Don’t think Brooklyn is ready for turkey yet!  Couple of years to… https://t.co/RU0UPo4kG3",0.6333333333333333
+San Antonio,Sun Nov 22 23:10:21 +0000 2020,TX,@Dnova89 @swjay_ @Triple333Bre @Millie_Milz @MirandaTijernia Its all cap bro 😂hes a comedian they dont know each ot… https://t.co/xqMF68dRdT,0.0
+Houston,Sun Nov 22 23:10:29 +0000 2020,TX,Flight at 9am tomorrow so packing now that way I don’t have to do much when I come back from going out tonight,0.1
+Youngstown,Sun Nov 22 23:10:31 +0000 2020,OH,"I go everywhere prepared, that's why I skip shows if I'm not. The flight to vegas I read 90 pages of a novel to get… https://t.co/QzHI3Lc2jV",0.0
 Mount Vernon,Sun Nov 22 23:10:33 +0000 2020,NY,"""Bed full of women, flip on a tripod, little red light on shootin', I'm feelin' like
-Stanley Kubrick, this is some… https://t.co/dkQ5g1pjvN"
-Marathon,Sun Nov 22 23:10:55 +0000 2020,FL,@allornothing_twoconchs on a 1/2 day afternoon trip today @connley_fishing #connleyrods #twoconchs… https://t.co/QYO0exh7v3
-Atlanta,Sun Nov 22 23:12:07 +0000 2020,GA,I forgot all about going to the strip club last night. I don’t remember a thing about it honestly
-Big Spring,Sun Nov 22 23:12:48 +0000 2020,TX,If I been trippin today that’s my b boys stressed
-Sea Bright,Sun Nov 22 23:14:02 +0000 2020,NJ,"highly recommend booking a flight with your best friend, 5.5 star rating @ Sea Bright, New Jersey https://t.co/JKrcHScAbZ"
-Raleigh,Sun Nov 22 23:14:40 +0000 2020,NC,"Am I missing something? Call me a Gamecock, but Clemson traveled with a covid-positive player and isn’t worried tha… https://t.co/aIEB6OJjhK"
-Shawnee,Sun Nov 22 23:14:53 +0000 2020,KS,@KCGooner @TheChad_KC A full polka-dot w/ shoulder stripes would have been 🔥. Chad did as well as he could under th… https://t.co/GkoB52ZUA0
-Yuma,Sun Nov 22 23:14:55 +0000 2020,AZ,Can’t wait to travel 🤩🤩
-Washington,Sun Nov 22 23:15:38 +0000 2020,DC,Just verifying my previous check in. This one is delicious. Glad to have OH in DC. - Drinking a Triple Dry Hopped L… https://t.co/hauLs5yzF3
-Mansfield,Sun Nov 22 23:15:58 +0000 2020,TX,@louisbink @publiclandlvr Thankful for every single trip and destination you’ve taken us to bro!
-Oakland,Sun Nov 22 23:17:24 +0000 2020,NJ,What a catch by Mims! #TakeFlight
-Mentor,Sun Nov 22 23:17:33 +0000 2020,OH,The @steelers by far have the most well traveled fans. Change My Mind!
+Stanley Kubrick, this is some… https://t.co/dkQ5g1pjvN",0.140625
+Baton Rouge,Sun Nov 22 23:10:40 +0000 2020,LA,"Home Chapter 
+CASA Community Service Project, was a success, 28 complete Thanksgiving baskets were done. 
+Thank you… https://t.co/D5B4T58JAi",0.2
+Marathon,Sun Nov 22 23:10:55 +0000 2020,FL,@allornothing_twoconchs on a 1/2 day afternoon trip today @connley_fishing #connleyrods #twoconchs… https://t.co/QYO0exh7v3,0.0
+Freeport,Sun Nov 22 23:10:56 +0000 2020,TX,Thanksgiving is a time to honor our Native American ancestors.,0.0
+Holyoke,Sun Nov 22 23:11:09 +0000 2020,MA,Anyone else nervous to tell your parents you’re not coming for thanksgiving lol why am I the nervous one when I’m not doing anything wrong,0.15000000000000002
+Pittsburgh,Sun Nov 22 23:11:19 +0000 2020,PA,"Steelers vs Ravens
+AFC North football 
+Thanksgiving night
+
+Give us color rush and paint the end zones black… https://t.co/ZA0qO1im8d",0.0
+Torrance,Sun Nov 22 23:11:22 +0000 2020,CA,"Between working in radio and working in the food service industry, I've had very few Thanksgivings actually watchin… https://t.co/owMKiHBUrY",-0.13
+Redmond,Sun Nov 22 23:11:25 +0000 2020,WA,Home made pumpkin loaf. Good activity for lockdown Thanksgiving. #lockdownbaking https://t.co/cCp5KClLeD,0.7
+Atlanta,Sun Nov 22 23:12:07 +0000 2020,GA,I forgot all about going to the strip club last night. I don’t remember a thing about it honestly,0.3
+Brodhead,Sun Nov 22 23:12:32 +0000 2020,WI,Kinda wish Packers played the late game on Thanksgiving,-0.35
+Big Spring,Sun Nov 22 23:12:48 +0000 2020,TX,If I been trippin today that’s my b boys stressed,0.0
+Hazelwood,Sun Nov 22 23:13:27 +0000 2020,MO,"@joehaden23 @steelers Let’s get it. Thanksgiving night, it’s on! #PS4L 🖤💛🖤💛",0.0
+Sea Bright,Sun Nov 22 23:14:02 +0000 2020,NJ,"highly recommend booking a flight with your best friend, 5.5 star rating @ Sea Bright, New Jersey https://t.co/JKrcHScAbZ",0.49909090909090903
+Citrus Hills,Sun Nov 22 23:14:40 +0000 2020,FL,@Hunde_Haus @Schwim123 @adrvetmedgirl All good here in Florida!   Hope you &amp; your family are healthy &amp; happy. Happy Thanksgiving 🦃,0.7437499999999999
+Raleigh,Sun Nov 22 23:14:40 +0000 2020,NC,"Am I missing something? Call me a Gamecock, but Clemson traveled with a covid-positive player and isn’t worried tha… https://t.co/aIEB6OJjhK",-0.2
+West Hollywood,Sun Nov 22 23:14:48 +0000 2020,CA,"@bart70 @Nick_FromBoston In California, they are forbidding us to leave our bed for Thanksgiving. Gavin Newsom is on top of things",0.5
+Shawnee,Sun Nov 22 23:14:53 +0000 2020,KS,@KCGooner @TheChad_KC A full polka-dot w/ shoulder stripes would have been 🔥. Chad did as well as he could under th… https://t.co/GkoB52ZUA0,0.35
+Yuma,Sun Nov 22 23:14:55 +0000 2020,AZ,Can’t wait to travel 🤩🤩,0.0
+Laguna Beach,Sun Nov 22 23:15:04 +0000 2020,FL,"@TasteOfCountry Ummm...when I do Thanksgiving on Christmas at my new home, I want @KipMooreMusic to attend mine, no… https://t.co/PO7zn0MMVi",0.13636363636363635
+Washington,Sun Nov 22 23:15:38 +0000 2020,DC,Just verifying my previous check in. This one is delicious. Glad to have OH in DC. - Drinking a Triple Dry Hopped L… https://t.co/hauLs5yzF3,0.3166666666666667
+Mansfield,Sun Nov 22 23:15:58 +0000 2020,TX,@louisbink @publiclandlvr Thankful for every single trip and destination you’ve taken us to bro!,-0.08928571428571427
+Miami,Sun Nov 22 23:16:07 +0000 2020,FL,Don’t forget there are a couple more days to finish the REFLEX MATH THANKSGIVING CHALLENGE!!! 🦃 @MDCPSMath… https://t.co/VHV5VCXe5d,0.9765625
+Boston,Sun Nov 22 23:16:31 +0000 2020,MA,Shipping Apple Cider Doughnut Pies for some very happy Thanksgivings. @ Blackbird Doughnuts https://t.co/4we9r4BckG,1.0
+Louisville,Sun Nov 22 23:16:57 +0000 2020,KY,"Gifts sets galore!!! Customize your gift sets with me!!
+
+#thanksgiving #holidays2020 #MyMKLife @ Louisville, Kentuc… https://t.co/wP7tyiloSL",0.0
+Oakland,Sun Nov 22 23:17:24 +0000 2020,NJ,What a catch by Mims! #TakeFlight,0.0
+Mentor,Sun Nov 22 23:17:33 +0000 2020,OH,The @steelers by far have the most well traveled fans. Change My Mind!,0.3625
+Arlington,Sun Nov 22 23:17:36 +0000 2020,TX,R.R. Would like to wish all Americans a Happy Thanksgiving. And to promote the Old fashioned idea once again of sen… https://t.co/y8hTZbyc28,0.45
+North Arlington,Sun Nov 22 23:17:38 +0000 2020,NJ,"Siempre quise pasar un thanksgiving en ny y guess what... aquí estoy pero no hay parade, ni nada 😢",-0.25
+Newport Beach,Sun Nov 22 23:17:45 +0000 2020,CA,The ONLY acceptable way to have a turkey at Thanksgiving. 🦃,0.0
+Los Angeles,Sun Nov 22 23:17:48 +0000 2020,CA,I hate that #Thanksgiving is during #NativeAmericanHeritageMonth  if anything it reinforces the myth about Indians… https://t.co/xfM2MSrs4O,-0.8
+Spartanburg,Sun Nov 22 23:17:50 +0000 2020,SC,Can’t wait for fudge to find out what thanksgiving is this week. 🥰🍁🧡 https://t.co/VNB3baM4IH,0.0
 Phoenix,Sun Nov 22 23:18:04 +0000 2020,AZ,"Come see me at the Candy Store 🤤😝
 
-#stripperlife #stripclub #phxbabe #money #bringthebag #hotgirl #wherethebagat… https://t.co/7xpMH2C24c"
-Cedar Hill,Sun Nov 22 23:18:12 +0000 2020,TX,Y’all trippin lol we need the Cowboys to lose every game from here on out
-Pico Rivera,Sun Nov 22 23:19:09 +0000 2020,CA,@kerrc17 @UsmntB Sooo by your logic if his team is promoted or hes transfered to top flight that would automatically mean hes better
-Sea Bright,Sun Nov 22 23:19:11 +0000 2020,NJ,"highly recommend booking a flight with your best friend, 5.5 star rating @ Sea Bright, New Jersey https://t.co/WTMmyF2vwa"
-Orlando,Sun Nov 22 23:19:12 +0000 2020,FL,"@BingeMovies @UniversalORL Haha! I’m just a lifelong fan! First trip was in the early 90s. And for the last 12yrs,… https://t.co/WvuMoEhDzS"
-Houston,Sun Nov 22 23:19:18 +0000 2020,TX,"Shop🛍 ""All Striped Out""  maxidress  https://t.co/WQmUJ86J03 #fashion #blackfridaysale https://t.co/rWeNvZ7Pjw"
-Denver,Sun Nov 22 23:19:24 +0000 2020,CO,MANO LITERALMENTE EU E AS MENINAS EM TODA ROAD TRIP
-Las Animas,Sun Nov 22 23:19:48 +0000 2020,CO,@trip_elix @marc_Q1 @GeneralWarz @Knuckleball6984 @michelschoever2 @SuccessAddict2 @lovebaldeagles @jimscileppi… https://t.co/elXs9tpJYN
-Staten Island,Sun Nov 22 23:20:00 +0000 2020,NY,@godesss_blonde The Saint likes the right side to play strip twister 😍😍😍😍😍wanna play with the Saint?
-Las Animas,Sun Nov 22 23:20:32 +0000 2020,CO,@trip_elix @marc_Q1 @GeneralWarz @Knuckleball6984 @michelschoever2 @SuccessAddict2 @lovebaldeagles @jimscileppi… https://t.co/H9rKbeIU6d
+#stripperlife #stripclub #phxbabe #money #bringthebag #hotgirl #wherethebagat… https://t.co/7xpMH2C24c",0.0
+Portland,Sun Nov 22 23:18:05 +0000 2020,OR,"been laying in bed hungover, naked, watching movies all day. a really good start to thanksgiving break",0.35
+Cedar Hill,Sun Nov 22 23:18:12 +0000 2020,TX,Y’all trippin lol we need the Cowboys to lose every game from here on out,0.2
+Brooklyn Park,Sun Nov 22 23:18:38 +0000 2020,MD,@wbaljfro @wbaltv11 You take care of your self. Happy Thanksgiving.,0.8
+Pico Rivera,Sun Nov 22 23:19:09 +0000 2020,CA,@kerrc17 @UsmntB Sooo by your logic if his team is promoted or hes transfered to top flight that would automatically mean hes better,0.22916666666666666
+Sea Bright,Sun Nov 22 23:19:11 +0000 2020,NJ,"highly recommend booking a flight with your best friend, 5.5 star rating @ Sea Bright, New Jersey https://t.co/WTMmyF2vwa",0.49909090909090903
+Orlando,Sun Nov 22 23:19:12 +0000 2020,FL,"@BingeMovies @UniversalORL Haha! I’m just a lifelong fan! First trip was in the early 90s. And for the last 12yrs,… https://t.co/WvuMoEhDzS",0.095
+Houston,Sun Nov 22 23:19:18 +0000 2020,TX,"Shop🛍 ""All Striped Out""  maxidress  https://t.co/WQmUJ86J03 #fashion #blackfridaysale https://t.co/rWeNvZ7Pjw",0.0
+Denver,Sun Nov 22 23:19:24 +0000 2020,CO,MANO LITERALMENTE EU E AS MENINAS EM TODA ROAD TRIP,0.0
+Smyrna,Sun Nov 22 23:19:25 +0000 2020,DE,To go goose hunting on thanksgiving morning or not 👀👀,0.0
+North Salt Lake,Sun Nov 22 23:19:30 +0000 2020,UT,#HealthcareHeroes #stayathome #StayHomeForThanksgiving #WearAMask #SocialDistancing,0.0
+Columbus,Sun Nov 22 23:19:46 +0000 2020,GA,#SuperSpreadGiving is when people can’t stay their ass at home for #Thanksgiving2020 and be safe so it it will turn… https://t.co/X2K4gdY0TQ,0.5
+Las Animas,Sun Nov 22 23:19:48 +0000 2020,CO,@trip_elix @marc_Q1 @GeneralWarz @Knuckleball6984 @michelschoever2 @SuccessAddict2 @lovebaldeagles @jimscileppi… https://t.co/elXs9tpJYN,0.0
+Staten Island,Sun Nov 22 23:20:00 +0000 2020,NY,@godesss_blonde The Saint likes the right side to play strip twister 😍😍😍😍😍wanna play with the Saint?,0.2857142857142857
+Brownsburg,Sun Nov 22 23:20:04 +0000 2020,IN,"I'm sure all the dumbasses at the Colts game will be careful on Thanksgiving. 
+
+We are at the peak of a pandemic, assholes.",-9.25185853854297e-18
+Saratoga Springs,Sun Nov 22 23:20:15 +0000 2020,NY,I’m grateful for my health and the health of my family. #HappyThanksgiving,0.0
+Knoxville,Sun Nov 22 23:20:19 +0000 2020,TN,@tedcruz No one is trying to take thanksgiving you dillweed. All we are asking for people to gather in small groups… https://t.co/hrlqK3hs2N,-0.25
+Huntington Woods,Sun Nov 22 23:20:27 +0000 2020,MI,"@Mangan150 While full lockdowns don’t work, I do worry that infections from the Thanksgiving holiday overwhelm the… https://t.co/uyUq7rzpIu",0.35
+Las Animas,Sun Nov 22 23:20:32 +0000 2020,CO,@trip_elix @marc_Q1 @GeneralWarz @Knuckleball6984 @michelschoever2 @SuccessAddict2 @lovebaldeagles @jimscileppi… https://t.co/H9rKbeIU6d,0.0
+Farmers Branch,Sun Nov 22 23:20:51 +0000 2020,TX,@dana4bama @Teaguefootball I usually go on thanksgiving too — that is the kickoff game for the Salvation Army https://t.co/8XnJkDogNg,-0.325
+East Lansing,Sun Nov 22 23:21:09 +0000 2020,MI,"One more chance to join in on an icebreaker before Thanksgiving! Tomorrow night, 8-9pm join #gvsuhtmclub for a fun… https://t.co/oORmI6VENV",0.625
 Bronx,Sun Nov 22 23:21:20 +0000 2020,NY,"I'm drilling while I'm trippin IM DRIPPIN
-Wahlah (hook)"
-Washington,Sun Nov 22 23:21:26 +0000 2020,DC,Road trip tomorrow
+Wahlah (hook)",0.0
+Washington,Sun Nov 22 23:21:26 +0000 2020,DC,Road trip tomorrow,0.0
+Isanti,Sun Nov 22 23:21:26 +0000 2020,MN,@subaru_usa Gratitude for all you do n Happy Thanksgiving !🍁🦃,1.0
 Manhattan,Sun Nov 22 23:21:33 +0000 2020,NY,"Denzel Mims is good. 
 
 As you were....
 
-#TakeFlight  https://t.co/PbYDexTo5n"
-Temecula,Sun Nov 22 23:21:34 +0000 2020,CA,@sarrahh011 uuummmm  WHAT ??   Americans USUALLY travel during this time to see their families. The HOLIDAY is on Thurs. ..... ONE day.
-Las Animas,Sun Nov 22 23:21:36 +0000 2020,CO,@sunnyflowergirl @trip_elix @marc_Q1 @GeneralWarz @Knuckleball6984 @michelschoever2 @SuccessAddict2 @lovebaldeagles… https://t.co/6zd1uox0CU
-Pace,Sun Nov 22 23:22:14 +0000 2020,FL,If you can’t make the trip to Saint Augustine we’d love to have a big crowd to see the boys off on Thursday afterno… https://t.co/Cgu9xIf3aW
-Covington,Sun Nov 22 23:22:31 +0000 2020,LA,@Travelwithmyfe1 😘😘😘
-Delhi,Sun Nov 22 23:22:54 +0000 2020,OH,"@BallCoach15 @gmraynor @RedditCFB Sure is whining to travel w his players and staff in 2020 where that isn't easy,… https://t.co/Uo4MXdYPUp"
-Los Angeles,Sun Nov 22 23:23:13 +0000 2020,CA,@yrstrulymicah @Station19 @JasonWGeorge I need binge worthy shows on my travels that eric won’t watch so this is now top of the list
-Newington Forest,Sun Nov 22 23:23:15 +0000 2020,VA,Travel with us to Haiti ... https://t.co/YgGf2bxWht
-Newark,Sun Nov 22 23:23:15 +0000 2020,NJ,Touchdown! Gore! #TakeFlight
-Columbus,Sun Nov 22 23:23:19 +0000 2020,GA,It’s time for another trip to the salon 🥺 https://t.co/k7BRbA3xsB
-Memphis,Sun Nov 22 23:23:23 +0000 2020,TN,"i used to go crazy, but now ion even trip. do yo thang."
-Los Angeles,Sun Nov 22 23:23:26 +0000 2020,CA,U trippin
-Croton-on-Hudson,Sun Nov 22 23:23:27 +0000 2020,NY,That’s 2 missed XPs #TakeFlight #NYJvsLAC @BartScott57 F for Special Teams.
-Atlanta,Sun Nov 22 23:23:31 +0000 2020,GA,definitely gotta on a another cabin trip
+#TakeFlight  https://t.co/PbYDexTo5n",0.7
+Temecula,Sun Nov 22 23:21:34 +0000 2020,CA,@sarrahh011 uuummmm  WHAT ??   Americans USUALLY travel during this time to see their families. The HOLIDAY is on Thurs. ..... ONE day.,-0.25
+Las Animas,Sun Nov 22 23:21:36 +0000 2020,CO,@sunnyflowergirl @trip_elix @marc_Q1 @GeneralWarz @Knuckleball6984 @michelschoever2 @SuccessAddict2 @lovebaldeagles… https://t.co/6zd1uox0CU,0.0
+Portland,Sun Nov 22 23:21:52 +0000 2020,OR,❤ Love your friends and family enough that you won't celebrate Thanksgiving with them in person this year. ❤ #StayHomeSaveLives,0.25
+New Orleans,Sun Nov 22 23:21:53 +0000 2020,LA,All these sanctimonious snitches gonna have us eating like this on Thanksgiving. https://t.co/IIypMBN6PX,0.0
+Pace,Sun Nov 22 23:22:14 +0000 2020,FL,If you can’t make the trip to Saint Augustine we’d love to have a big crowd to see the boys off on Thursday afterno… https://t.co/Cgu9xIf3aW,0.25
+Santa Monica,Sun Nov 22 23:22:30 +0000 2020,CA,SMBA Thanksgiving Hitting Clinic set up the players for the Home Run Derby! #homerun #baseballtraining⚾️ #baseball… https://t.co/4hv7uroEVh,0.0
+Covington,Sun Nov 22 23:22:31 +0000 2020,LA,@Travelwithmyfe1 😘😘😘,0.0
+Virginia Beach,Sun Nov 22 23:22:38 +0000 2020,VA,I need to order my thanksgiving groceries 🤧 like TUHDAY lol,0.8
+Brooklyn,Sun Nov 22 23:22:44 +0000 2020,NY,"TONITE  #ACharlieBrownThanksgiving @ Brooklyn, New York https://t.co/xHS3OMtTAI",0.13636363636363635
+Delhi,Sun Nov 22 23:22:54 +0000 2020,OH,"@BallCoach15 @gmraynor @RedditCFB Sure is whining to travel w his players and staff in 2020 where that isn't easy,… https://t.co/Uo4MXdYPUp",0.5
+Bronx,Sun Nov 22 23:23:07 +0000 2020,NY,"**NEW POST** https://t.co/fOpWMg82nC
+@MomOnTimeout @littlespicejar @TheRock @Teremana #Thanksgiving2020 #food… https://t.co/gTY9LZUxHN",0.13636363636363635
+Los Angeles,Sun Nov 22 23:23:13 +0000 2020,CA,@yrstrulymicah @Station19 @JasonWGeorge I need binge worthy shows on my travels that eric won’t watch so this is now top of the list,0.41666666666666663
+Newington Forest,Sun Nov 22 23:23:15 +0000 2020,VA,Travel with us to Haiti ... https://t.co/YgGf2bxWht,0.0
+Newark,Sun Nov 22 23:23:15 +0000 2020,NJ,Touchdown! Gore! #TakeFlight,0.0
+Columbus,Sun Nov 22 23:23:19 +0000 2020,GA,It’s time for another trip to the salon 🥺 https://t.co/k7BRbA3xsB,0.0
+Memphis,Sun Nov 22 23:23:23 +0000 2020,TN,"i used to go crazy, but now ion even trip. do yo thang.",-0.6
+Los Angeles,Sun Nov 22 23:23:26 +0000 2020,CA,U trippin,0.0
+Croton-on-Hudson,Sun Nov 22 23:23:27 +0000 2020,NY,That’s 2 missed XPs #TakeFlight #NYJvsLAC @BartScott57 F for Special Teams.,0.35714285714285715
+Atlanta,Sun Nov 22 23:23:31 +0000 2020,GA,definitely gotta on a another cabin trip,0.0
+Downingtown,Sun Nov 22 23:23:34 +0000 2020,PA,"#i❤️thanksgiving @ Downingtown, Pennsylvania https://t.co/GxAWVFIgya",0.0
+Brooklyn,Sun Nov 22 23:23:45 +0000 2020,NY,"TONITE  #ACharlieBrownThanksgiving is airing COMMERCIAL FREE on #PBS @ Brooklyn, New York https://t.co/ru2Of9qJ1w",0.1787878787878788
+Columbus,Sun Nov 22 23:23:47 +0000 2020,GA,I made a new #hashtag. #SuperSpreadGiving is a #Thanksgiving2020⁠￼⁠ #superspreader event because people can’t stay… https://t.co/a6ZSjsZFRW,0.13636363636363635
+Inniswold,Sun Nov 22 23:23:57 +0000 2020,LA,I ain’t dressing up for thanksgiving. Miss me this yr.,0.0
 Dallas,Sun Nov 22 23:23:58 +0000 2020,TX,"Reason number 5,001 that we need COVID-19 vaccines ASAP: 
 
-So we can travel again and get more seasons of #ThePack ! https://t.co/5dJWD6qEYC"
-Las Animas,Sun Nov 22 23:24:00 +0000 2020,CO,@sunnyflowergirl @trip_elix @marc_Q1 @GeneralWarz @Knuckleball6984 @michelschoever2 @SuccessAddict2 @lovebaldeagles… https://t.co/bBqrdkPLfx
-SeaTac,Sun Nov 22 23:24:25 +0000 2020,WA,One day I want to be bougie enough to go to the spa at the airport 💅 Just a quick massage/facial combo in between flights nbd
-Illahee,Sun Nov 22 23:25:02 +0000 2020,WA,"@stripman55 @VicLombardi Not a ""chocolate"" city like NO, ATL or even (ergads!)...Detroit?  Not even being funny her… https://t.co/tUZnLgcG8y"
+So we can travel again and get more seasons of #ThePack ! https://t.co/5dJWD6qEYC",0.625
+Las Animas,Sun Nov 22 23:24:00 +0000 2020,CO,@sunnyflowergirl @trip_elix @marc_Q1 @GeneralWarz @Knuckleball6984 @michelschoever2 @SuccessAddict2 @lovebaldeagles… https://t.co/bBqrdkPLfx,0.0
+Mesquite,Sun Nov 22 23:24:05 +0000 2020,TX,What a great sermon from @DrDavidLAllen @SunnyvaleFBC this morning.  The sermon was titled “Thanksgiving.” The scri… https://t.co/dNl6qHrTrX,0.1166666666666667
+Knoxville,Sun Nov 22 23:24:13 +0000 2020,TN,Happy Thanksgiving!!,1.0
+Amherst,Sun Nov 22 23:24:16 +0000 2020,NY,"I hate that I’ve had to cancel my #Thanksgiving plans, but I will not risk the health of my family, friends or cowo… https://t.co/QlaTxI221R",-0.8
+Municipality of Monroeville,Sun Nov 22 23:24:24 +0000 2020,PA,@emandreas ..... Thanksgiving Game vs Houston…,-0.4
+SeaTac,Sun Nov 22 23:24:25 +0000 2020,WA,One day I want to be bougie enough to go to the spa at the airport 💅 Just a quick massage/facial combo in between flights nbd,0.16666666666666666
+Lyndon,Sun Nov 22 23:24:27 +0000 2020,KY,@CaslerNoel @MANX38 Twas the weekend before Thanksgiving and all through the White House telephones weren't ringing....🤔😮😉,0.0
+Seaside Heights,Sun Nov 22 23:24:27 +0000 2020,NJ,Thanksgiving eve. Don't miss this one.  The front man and Guitarist from Temporary Grace going to throw down at Ejs… https://t.co/sXJVI2jWcz,-0.15555555555555559
+Chapel Hill,Sun Nov 22 23:24:37 +0000 2020,NC,An Unlikely Thanksgiving Tradition Carries On https://t.co/tug79MJfT2 💚🙏🏾,-0.5
+Lakeland Heights,Sun Nov 22 23:24:47 +0000 2020,TX,Thanksgiving is this week take ur turkey out to thaw,0.0
+Illahee,Sun Nov 22 23:25:02 +0000 2020,WA,"@stripman55 @VicLombardi Not a ""chocolate"" city like NO, ATL or even (ergads!)...Detroit?  Not even being funny her… https://t.co/tUZnLgcG8y",0.25
+Elmwood Park,Sun Nov 22 23:25:20 +0000 2020,IL,anyone else watching that one episode of gossip girl to celebrate thanksgiving this week 😌,0.0
+Visalia,Sun Nov 22 23:25:36 +0000 2020,CA,This year is so weird. Still no idea what I’m doing for thanksgiving and it’s 4 days away🙃,-0.5
+Sacramento,Sun Nov 22 23:25:42 +0000 2020,CA,'Bleak' Trump Is Staying Home for Thanksgiving https://t.co/zGq9T3Z26r via @YouTube @JKCorden I see you 👀 🤣 with lo… https://t.co/mgDSxi8IW8,-1.0
 Indianapolis,Sun Nov 22 23:25:44 +0000 2020,IN,"1. Where is that island in the @Allstate commercial
-2. Who has flights there"
-North Merrick,Sun Nov 22 23:26:02 +0000 2020,NY,Bring back Castillo! #JetUp #TakeFlight
-Los Angeles,Sun Nov 22 23:26:19 +0000 2020,CA,People trippin today what’s goin on 😂
-Kent,Sun Nov 22 23:26:31 +0000 2020,WA,I just ordered some crackin strips and can’t wait till there get here little taste of the south
-Tallahassee,Sun Nov 22 23:26:49 +0000 2020,FL,Lol we not playing for their travel . Y’all was the reason the game was canceled in the first place . What a comple… https://t.co/FfvXcmR8Jj
-Seattle,Sun Nov 22 23:27:29 +0000 2020,WA,@Gorkem2206 But they’re just plain fried chicken strips correct?
-Fullerton,Sun Nov 22 23:27:30 +0000 2020,CA,"@eccentaecity Well I was born In Baghdad, Iraq. But traveled to different countries growing up. I live in Jordan fo… https://t.co/6KV5XFZ3BZ"
-Joliet,Sun Nov 22 23:27:40 +0000 2020,IL,"Getting tripppppppy tonight, send all da good vibez 🖖🏻🖖🏻"
-Manhattan,Sun Nov 22 23:28:43 +0000 2020,NY,"@CCupo Right but the point is ... if you're going to restrict travel from certain destinations, it's a bit pointles… https://t.co/qc8ZxGuJmn"
-Dunn,Sun Nov 22 23:28:48 +0000 2020,NC,I don't even be tripping I just wanna know wassup so I can know how to move
-Milwaukee,Sun Nov 22 23:28:56 +0000 2020,WI,Stop trying to strip the ball and get him down.
-Ashburn,Sun Nov 22 23:29:06 +0000 2020,GA,@tripleb_o2 Ain’t got nuhn 😂😂
-Fort Pierce,Sun Nov 22 23:30:49 +0000 2020,FL,What Paul’s first trip abroad was like https://t.co/qW8C3aD4le
+2. Who has flights there",0.0
+Cheektowaga,Sun Nov 22 23:25:49 +0000 2020,NY,Guess I’m not going home for thanksgiving bc more people at my work tested positive 😞,0.36363636363636365
+North Merrick,Sun Nov 22 23:26:02 +0000 2020,NY,Bring back Castillo! #JetUp #TakeFlight,0.0
+Baltimore,Sun Nov 22 23:26:08 +0000 2020,MD,"I don’t know if it my schedule, my mental, or just the need to escape, but I just wanna be alone for Thanksgiving.… https://t.co/zJP1UhFuxW",-0.1
+Los Angeles,Sun Nov 22 23:26:19 +0000 2020,CA,People trippin today what’s goin on 😂,0.0
+Kent,Sun Nov 22 23:26:31 +0000 2020,WA,I just ordered some crackin strips and can’t wait till there get here little taste of the south,-0.1875
+Tallahassee,Sun Nov 22 23:26:49 +0000 2020,FL,Lol we not playing for their travel . Y’all was the reason the game was canceled in the first place . What a comple… https://t.co/FfvXcmR8Jj,0.21666666666666667
+West Springfield,Sun Nov 22 23:26:53 +0000 2020,VA,"Had a great early Thanksgiving with my family tonight since we can’t be all together on Thursday. Turkey, stuffing,… https://t.co/aFUyPEsnY5",0.45
+Lynchburg,Sun Nov 22 23:27:04 +0000 2020,VA,"#If2020WereAThanksgivingDish
+Tofurkey with soylent green stuffing",-0.2
+New Orleans,Sun Nov 22 23:27:18 +0000 2020,LA,I’m pausing my diet for thanksgiving and that’s on what periodtttt 😂,0.0
+Seattle,Sun Nov 22 23:27:29 +0000 2020,WA,@Gorkem2206 But they’re just plain fried chicken strips correct?,-0.40714285714285714
+Fullerton,Sun Nov 22 23:27:30 +0000 2020,CA,"@eccentaecity Well I was born In Baghdad, Iraq. But traveled to different countries growing up. I live in Jordan fo… https://t.co/6KV5XFZ3BZ",0.06818181818181818
+Joliet,Sun Nov 22 23:27:40 +0000 2020,IL,"Getting tripppppppy tonight, send all da good vibez 🖖🏻🖖🏻",0.7
+East St Louis,Sun Nov 22 23:28:36 +0000 2020,IL,Happy Thanksgiving week be safe wear mask 😷,0.65
+Muncie,Sun Nov 22 23:28:37 +0000 2020,IN,Happy Covid Thanksgiving! https://t.co/aQwiilDtdn,1.0
+Manhattan,Sun Nov 22 23:28:43 +0000 2020,NY,"@CCupo Right but the point is ... if you're going to restrict travel from certain destinations, it's a bit pointles… https://t.co/qc8ZxGuJmn",0.25
+Dunn,Sun Nov 22 23:28:48 +0000 2020,NC,I don't even be tripping I just wanna know wassup so I can know how to move,0.0
+Milwaukee,Sun Nov 22 23:28:56 +0000 2020,WI,Stop trying to strip the ball and get him down.,-0.15555555555555559
+Nashville,Sun Nov 22 23:29:03 +0000 2020,TN,"This #Thanksgiving week, I’m thankful for being able to paint- a safe activity during this pandemic! First… https://t.co/WIQaHsakl2",0.5625
+Ashburn,Sun Nov 22 23:29:06 +0000 2020,GA,@tripleb_o2 Ain’t got nuhn 😂😂,0.0
+Jersey City,Sun Nov 22 23:29:16 +0000 2020,NJ,It’s not too late!! Let us make your Thanksgiving stress free! Pre- Order by 10pm. @ Hooked JC https://t.co/NuG27mnW2x,0.015625
+Kansas City,Sun Nov 22 23:29:37 +0000 2020,MO,@SusieMadrak Let's write up a treatment. Our school is closing for Thanksgiving and staying closed. Catholics are t… https://t.co/jzsJx6eikp,-0.1
+Louisville,Sun Nov 22 23:30:09 +0000 2020,KY,"Normally, I'd never put the tree up before Thanksgiving.  But these are not normal times.  It does bring a touch of… https://t.co/pkK8NiKjaC",-0.075
+Brookings,Sun Nov 22 23:30:42 +0000 2020,SD,@AlanfromArthur @govkristinoem And likely another 100-150 South Dakotans will die before or on Thanksgiving Day. Th… https://t.co/0JhrDCSVyk,0.0
+Midland,Sun Nov 22 23:30:47 +0000 2020,TX,@ksorbs HAPPY THANKSGIVING  TO YOU AND YOUR FAMILY.,0.8
+Fort Pierce,Sun Nov 22 23:30:49 +0000 2020,FL,What Paul’s first trip abroad was like https://t.co/qW8C3aD4le,0.25
+Chapel Hill,Sun Nov 22 23:30:50 +0000 2020,NC,#HappyThanksgiving,0.0
 Fairburn,Sun Nov 22 23:31:06 +0000 2020,GA,"@LuDawl Wow now I do too😭😭😭😭😭
 
-Road trip soon?"
+Road trip soon?",0.1
 Citrus Heights,Sun Nov 22 23:31:19 +0000 2020,CA,"@seanhannity MuslimsRQuiteSinceTrmpPutA
 TravelBandOnCertainMuslimNations&amp;CloseMexBorderWerMexCartel
-LetTerroristsCh… https://t.co/47B6C8ttVK"
-Winston-Salem,Sun Nov 22 23:31:23 +0000 2020,NC,"Thanksgiving this year: no travel, just dinner with Mom (my family bubble). And we decided to rewrite the menu: Sou… https://t.co/3O4zzxFzO3"
-Bay City,Sun Nov 22 23:31:46 +0000 2020,MI,@joannaaa27 Had me a lil therapy after a trip and felt rejuvenated
-Seattle,Sun Nov 22 23:32:49 +0000 2020,WA,@Gorkem2206 Yea I had the sauce. It was cool. So then it’s more the sauce than the strips lol
-Detroit,Sun Nov 22 23:33:06 +0000 2020,MI,lastnight was a trip 😭
-Parker,Sun Nov 22 23:33:27 +0000 2020,CO,@annikalanderson Trip to mexico?! Hold up https://t.co/jB3jcy1Y19
-San Diego,Sun Nov 22 23:33:49 +0000 2020,CA,The stars just didn’t align for me to get my lashes done lol back to strips I go 😂
-Chicago,Sun Nov 22 23:34:00 +0000 2020,IL,Many Americans making Thanksgiving trips despite CDC plea.  https://t.co/xhJNJFSguM
-Grand Rapids,Sun Nov 22 23:34:22 +0000 2020,MI,How clever. You are an amazing person. Prayers for a safe trip and seamless transition . 🙏
-Prairie View,Sun Nov 22 23:34:30 +0000 2020,TX,I like blue strips but boi I’m not a ♿️ https://t.co/vQhnheQOZq
-Los Angeles,Sun Nov 22 23:34:40 +0000 2020,CA,I have yet to walk in a strip club in LA😂
-Ashburn,Sun Nov 22 23:35:10 +0000 2020,GA,@RobJoye10 @MBMNoles @Btchristian2000 @gmraynor @AustinMcAlpin Did FSU coach travel with the team?
-Redwood City,Sun Nov 22 23:35:29 +0000 2020,CA,@dsceditor @MissJackx probably still cheaper than a first class direct @emirates flight from Dubai to SFO where the… https://t.co/cUM7t1Qjul
-Bridgeport,Sun Nov 22 23:35:38 +0000 2020,CT,"Taking a little trip down memory lane with #unclefloydvivino @ Bridgeport, Connecticut https://t.co/qEqYo6txCp"
-San Diego,Sun Nov 22 23:35:58 +0000 2020,CA,@chetripley17 Eat shit
-Ashburn,Sun Nov 22 23:36:01 +0000 2020,GA,@RobJoye10 @MBMNoles @Btchristian2000 @gmraynor @AustinMcAlpin A player WITH SYMPTOMS traveled with the team and te… https://t.co/8ueIH3AIO3
-Columbus,Sun Nov 22 23:36:11 +0000 2020,GA,In need of strip mink lashes? Quality 18mm-25mm? Check us out on IG @JetsetterExtensions #Minklashes https://t.co/Q4phAFFRSk
-Philadelphia,Sun Nov 22 23:36:35 +0000 2020,PA,@gleegz This was a GOOD TRIP
-Tallahassee,Sun Nov 22 23:37:44 +0000 2020,FL,@edsbs What you got against strip malls bro?
-Smyrna,Sun Nov 22 23:37:54 +0000 2020,GA,@Alfredkendrick2 You need to hook me up with a Flight then MAB lol 😂
-New Orleans,Sun Nov 22 23:39:22 +0000 2020,LA,Am I tripping
+LetTerroristsCh… https://t.co/47B6C8ttVK",0.0
+Manhattan,Sun Nov 22 23:31:19 +0000 2020,NY,Happy Thanksgiving 🦃🍁 https://t.co/8PX9y9LYaJ,0.8
+Winston-Salem,Sun Nov 22 23:31:23 +0000 2020,NC,"Thanksgiving this year: no travel, just dinner with Mom (my family bubble). And we decided to rewrite the menu: Sou… https://t.co/3O4zzxFzO3",0.0
+Winston-Salem,Sun Nov 22 23:31:23 +0000 2020,NC,"Thanksgiving this year: no travel, just dinner with Mom (my family bubble). And we decided to rewrite the menu: Sou… https://t.co/3O4zzxFzO3",0.0
+Vacaville,Sun Nov 22 23:31:34 +0000 2020,CA,Did a little thanksgiving update to my Home Screen 🦃 🍂 🍽 https://t.co/9uaZqlaUWu,-0.1875
+Reston,Sun Nov 22 23:31:34 +0000 2020,VA,"@KatieHoag_ Missed 4 Thanksgivings, one Christmas, and my brother’s wedding.",0.0
+Chattanooga,Sun Nov 22 23:31:38 +0000 2020,TN,Why is nobody talking about how Thanksgiving is this week ?? https://t.co/yZKnwAIhn7,0.0
+North Ridgeville,Sun Nov 22 23:31:42 +0000 2020,OH,"Rangers, awards pick up will now be after thanksgiving break!!! @LkwdAthletics",0.0
+Bay City,Sun Nov 22 23:31:46 +0000 2020,MI,@joannaaa27 Had me a lil therapy after a trip and felt rejuvenated,0.0
+Converse,Sun Nov 22 23:31:47 +0000 2020,TX,Oh shit thanksgiving is this week,-0.2
+Arlington,Sun Nov 22 23:32:19 +0000 2020,MA,How many families are going to be served experimental Sussex pond pudding at the Thanksgiving table this year https://t.co/12xeyusyk0,0.3
+Homewood,Sun Nov 22 23:32:19 +0000 2020,AL,"Can you imagine if this hadn't been recorded? This would've been a story every Thanksgiving. ""And I didn't even dro… https://t.co/k7v8eCOZe6",0.0
+Tallahassee,Sun Nov 22 23:32:30 +0000 2020,FL,@MearKat00 Will I wait until Thanksgiving to take down my Halloween decorations?,-0.15555555555555559
+Paradise,Sun Nov 22 23:32:42 +0000 2020,NV,@Rebel_Net @SinCityPhotoGrl That’s fine. I know folks who are still having family gatherings for Thanksgiving and C… https://t.co/Y1pY5owGhn,0.4166666666666667
+Seattle,Sun Nov 22 23:32:49 +0000 2020,WA,@Gorkem2206 Yea I had the sauce. It was cool. So then it’s more the sauce than the strips lol,0.5499999999999999
+Denton,Sun Nov 22 23:32:54 +0000 2020,TX,"Just got off a three day run, flying home tomorrow for Thanksgiving, and then flying back the next day to play on t… https://t.co/gVaQ7eQQDp",0.0
+Upland,Sun Nov 22 23:32:56 +0000 2020,CA,When you zoom your family on thanksgiving &amp; your aunt new “friend” gets on FaceTime https://t.co/oFsy32sycj,0.13636363636363635
+Detroit,Sun Nov 22 23:33:06 +0000 2020,MI,lastnight was a trip 😭,0.0
+Parker,Sun Nov 22 23:33:27 +0000 2020,CO,@annikalanderson Trip to mexico?! Hold up https://t.co/jB3jcy1Y19,0.0
+Bartlett,Sun Nov 22 23:33:49 +0000 2020,TN,not sure how to handle being unable to lip-kiss every single relative this thanksgiving,-0.20535714285714285
+San Diego,Sun Nov 22 23:33:49 +0000 2020,CA,The stars just didn’t align for me to get my lashes done lol back to strips I go 😂,0.4
+Manhattan,Sun Nov 22 23:33:57 +0000 2020,NY,"girl: ""You mentioned you may go see your Puerto Rican side of the family for Thanksgiving? What does a Puerto Rican… https://t.co/H0HfANTKtQ",0.0
+Chicago,Sun Nov 22 23:34:00 +0000 2020,IL,Many Americans making Thanksgiving trips despite CDC plea.  https://t.co/xhJNJFSguM,0.5
+Chicago,Sun Nov 22 23:34:00 +0000 2020,IL,Many Americans making Thanksgiving trips despite CDC plea.  https://t.co/xhJNJFSguM,0.5
+Cleveland,Sun Nov 22 23:34:09 +0000 2020,MS,#Refuel your wallet all week long with these exclusive savings! #Thanksgiving2020⁠￼⁠ #BlackFriday2020… https://t.co/GslxFRxC4n,-0.0625
+Grand Rapids,Sun Nov 22 23:34:22 +0000 2020,MI,How clever. You are an amazing person. Prayers for a safe trip and seamless transition . 🙏,0.3416666666666667
+Prairie View,Sun Nov 22 23:34:30 +0000 2020,TX,I like blue strips but boi I’m not a ♿️ https://t.co/vQhnheQOZq,0.0
+Los Angeles,Sun Nov 22 23:34:40 +0000 2020,CA,I have yet to walk in a strip club in LA😂,0.0
+Ashburn,Sun Nov 22 23:35:10 +0000 2020,GA,@RobJoye10 @MBMNoles @Btchristian2000 @gmraynor @AustinMcAlpin Did FSU coach travel with the team?,0.0
+Memphis,Sun Nov 22 23:35:23 +0000 2020,TN,I'll be glad when we've won the War On Thanksgiving so we can focus properly on the War On Christmas.,0.25
+Redwood City,Sun Nov 22 23:35:29 +0000 2020,CA,@dsceditor @MissJackx probably still cheaper than a first class direct @emirates flight from Dubai to SFO where the… https://t.co/cUM7t1Qjul,0.175
+Anderson,Sun Nov 22 23:35:31 +0000 2020,SC,Early Thanksgiving with these beautiful people!! #Turkeyday1 #seefamilythanksgiving2020 #covidthanksgiving @ Cobb's… https://t.co/6NOv643XhS,0.55
+Bridgeport,Sun Nov 22 23:35:38 +0000 2020,CT,"Taking a little trip down memory lane with #unclefloydvivino @ Bridgeport, Connecticut https://t.co/qEqYo6txCp",-0.17152777777777778
+Weymouth,Sun Nov 22 23:35:48 +0000 2020,MA,#Thanksgiving https://t.co/BOwXkQu6KT,0.0
+San Diego,Sun Nov 22 23:35:58 +0000 2020,CA,@chetripley17 Eat shit,-0.2
+Ashburn,Sun Nov 22 23:36:01 +0000 2020,GA,@RobJoye10 @MBMNoles @Btchristian2000 @gmraynor @AustinMcAlpin A player WITH SYMPTOMS traveled with the team and te… https://t.co/8ueIH3AIO3,0.0
+Columbus,Sun Nov 22 23:36:11 +0000 2020,GA,In need of strip mink lashes? Quality 18mm-25mm? Check us out on IG @JetsetterExtensions #Minklashes https://t.co/Q4phAFFRSk,0.0
+Frisco,Sun Nov 22 23:36:34 +0000 2020,TX,@arikpalmer Oh that’s a guarantee! I’m doing a solo thanksgiving so I may have to split some fried turkey with some wings to break it in👀,0.0
+Philadelphia,Sun Nov 22 23:36:35 +0000 2020,PA,@gleegz This was a GOOD TRIP,0.7
+Philadelphia,Sun Nov 22 23:37:09 +0000 2020,PA,I usually take off the whole week of thanksgiving. I deadass forgot this year https://t.co/cX0jjdJleH,-0.024999999999999994
+Tallahassee,Sun Nov 22 23:37:44 +0000 2020,FL,@edsbs What you got against strip malls bro?,0.0
+Smyrna,Sun Nov 22 23:37:54 +0000 2020,GA,@Alfredkendrick2 You need to hook me up with a Flight then MAB lol 😂,0.8
+Columbus,Sun Nov 22 23:37:59 +0000 2020,OH,It would be dry af turkey  #If2020WereAThanksgivingDish,-0.06666666666666665
+Plano,Sun Nov 22 23:38:17 +0000 2020,TX,We are thankful FOR all God has done and thankful IN every circumstance. - Pastor Doc #thanksgiving #thankful @ Nor… https://t.co/FI31FmFEJZ,0.0
+Nashville,Sun Nov 22 23:38:31 +0000 2020,TN,Is anyone trying any new recipes for Thanksgiving? I’m trying @TiaMowry’s Brussels sprouts salad and cranberry-ging… https://t.co/5p850xzfvI,0.13636363636363635
+San Antonio,Sun Nov 22 23:38:42 +0000 2020,TX,Just ordered my pies for thanksgiving @BillMillerBarBQ 🥲😋,0.0
+Maple Grove,Sun Nov 22 23:39:19 +0000 2020,MN,Right on Thanksgiving week.,0.2857142857142857
+San Leandro,Sun Nov 22 23:39:21 +0000 2020,CA,Who need some Yams for thanksgiving 🍑😈 https://t.co/cSlu5g7Z6j,0.0
+New Orleans,Sun Nov 22 23:39:22 +0000 2020,LA,Am I tripping,0.0
+Greenacres,Sun Nov 22 23:39:26 +0000 2020,FL,@mdnij34 It's not Thanksgiving without stove top. What kind of monster are you?,0.55
 Philadelphia,Sun Nov 22 23:39:30 +0000 2020,PA,"The best part was the #GobbledyGooker tripping, falling, and losing a foot. 😂
 
-#SurvivorSeries #WWE #247Champion… https://t.co/miPsujO73h"
-Danbury,Sun Nov 22 23:39:35 +0000 2020,CT,We've unlocked the pee-and-eat-behind-a-Walmart-to-avoid-people level of COVID travel. (Visiting fam—we’ve all been… https://t.co/1XOxlJW65U
-Los Angeles,Sun Nov 22 23:39:41 +0000 2020,CA,Strip club tonight
-Killeen,Sun Nov 22 23:40:16 +0000 2020,TX,"@airquai23 alike as hell, unless i’m tripping??"
-Denver,Sun Nov 22 23:41:13 +0000 2020,CO,@illicit69kitty-Im up for a road trip/delivery 😛 https://t.co/kbnjwWfLo0
-Las Vegas,Sun Nov 22 23:41:15 +0000 2020,NV,Anyone on here watch Heavy Trip movie on Prime?? Frickin hilarious!!!! https://t.co/N2Kx8r5tiY
-Los Angeles,Sun Nov 22 23:41:53 +0000 2020,CA,Unexpected trip to Target &amp; Ross. Spent about $300 for I don’t even remember what. Happy holidays...
-Winchester,Sun Nov 22 23:43:18 +0000 2020,NV,"play your cards right. @ Las Vegas Strip, Las Vegas, Nevada https://t.co/GjXIT6e8aH"
-La Verne,Sun Nov 22 23:43:19 +0000 2020,CA,A year ago today I was on route to Frankfurt on a gorgeous @lufthansa A-380. I miss traveling.
-Ocoee,Sun Nov 22 23:44:10 +0000 2020,FL,"How is a game not cancelled because of COVID, if you traveled to FSU with a COVID positive player and that was what… https://t.co/M7uAD2X2y6"
-Bakersfield,Sun Nov 22 23:44:16 +0000 2020,CA,Triple the 7!
-Grapevine,Sun Nov 22 23:46:19 +0000 2020,TX,#DFW is currently experiencing departure delays between 16 mins and 30 mins due to RWY:Construction #flightdelay https://t.co/mWuvKULvId
-Bay City,Sun Nov 22 23:46:22 +0000 2020,TX,@DominoBomino I thought my shit was just tripping smh
-Virginia Beach,Sun Nov 22 23:46:24 +0000 2020,VA,Come to death valley or pay for their travel?? Dawg go somewhere
-Chicago,Sun Nov 22 23:46:27 +0000 2020,IL,Why travel when you can stay home and listen to every Bond song ever made?! https://t.co/g9axa371Vw
-Queens,Sun Nov 22 23:46:58 +0000 2020,NY,"@Taeler_Hendrix The match Taker had on wweraw in the shopping mall against triple h, beating triple h on an escalator."
-Charlotte,Sun Nov 22 23:47:12 +0000 2020,NC,Shawty Is A Stripper 💋🗣 - “Shoutout to all them ambitious strippers 🤑💰”. #StripperBooty #Stripper #StripperPole… https://t.co/VZIg7HpuBA
-Phoenix,Sun Nov 22 23:47:25 +0000 2020,AZ,Wow Rona really took the best bailes and trips away from us 😩🥺 I’m just trying to live my best life 😭😭
-Honolulu,Sun Nov 22 23:47:45 +0000 2020,HI,How every trip should end https://t.co/IagHbO8SPC
-Murfreesboro,Sun Nov 22 23:47:54 +0000 2020,TN,if I could drive- I’d be taking an impulsive self road trip to anywhere right about now. I miss driving. I miss back roads &amp; adventures
-Los Angeles,Sun Nov 22 23:47:56 +0000 2020,CA,Today’s flight over the Westlake District of LA. #losangeles #mavicair2 @ Westlake District https://t.co/kwgS7dm4wb
-McKinney,Sun Nov 22 23:47:59 +0000 2020,TX,@UTEPete Such a great comic strip! 👍🏻😊 Read the interview w CG. Awesome! 👍🏻
-Irving,Sun Nov 22 23:48:11 +0000 2020,TX,GREAT TRIPLE OPTION!!!
-Largo,Sun Nov 22 23:48:39 +0000 2020,FL,"He said i love to travel too, why NOT make that bag"
-East Perrine,Sun Nov 22 23:48:44 +0000 2020,FL,How do you call that a touchdown prior to the strip!!??  Are you f-ing kidding me?  I know it’ll be overturned but damn!  #MiamiDolphins
-Tamarac,Sun Nov 22 23:48:58 +0000 2020,FL,VanGinkle!!!! Stripped it! 🏈
-Chicago,Sun Nov 22 23:49:03 +0000 2020,IL,PlayStation 5 games have arrived @ Video Strip - Movie and Game Rental Store https://t.co/X1Aii2JnkX
-Romulus,Sun Nov 22 23:49:19 +0000 2020,MI,Made the flight. 👋🏾✈️
-Phoenix,Sun Nov 22 23:49:29 +0000 2020,AZ,Happy I don’t breathe hard after I climb up two flights of stairs anymore. Lmaooooooooooo
-Minneapolis,Sun Nov 22 23:49:30 +0000 2020,MN,@TrippenJillies ahhh. i’ve been wondering!
-Dallas,Sun Nov 22 23:49:45 +0000 2020,TX,"Update, after over an hour, and two trips inside to ask for help, manager came out and said they gave my order to s… https://t.co/QvVzXH2oUd"
-Merced,Sun Nov 22 23:49:53 +0000 2020,CA,When you go to cancel your Thanksgiving flights and realized you never actually booked one to come back to Cali. 😅
-Gonzales,Sun Nov 22 23:50:54 +0000 2020,LA,"Who Can I Run To When I’m Sick Of These Hoes, You The Fucking One I Come To So Don’t Trip When I Go.."
-Belleville,Sun Nov 22 23:51:08 +0000 2020,NJ,Mims 💪🏻💪🏻💪🏻 #TakeFlight
-Oakland,Sun Nov 22 23:51:09 +0000 2020,NJ,Herndon actually catching a TD what’s going on out there? #TakeFlight
-Indianapolis,Sun Nov 22 23:51:48 +0000 2020,IN,Middle school. Tripped in the hall. Broke my arm. Good news was I got out of having to do stupid choreography in th… https://t.co/9m4wO2zEDW
+#SurvivorSeries #WWE #247Champion… https://t.co/miPsujO73h",1.0
+Danbury,Sun Nov 22 23:39:35 +0000 2020,CT,We've unlocked the pee-and-eat-behind-a-Walmart-to-avoid-people level of COVID travel. (Visiting fam—we’ve all been… https://t.co/1XOxlJW65U,0.0
+Los Angeles,Sun Nov 22 23:39:41 +0000 2020,CA,Strip club tonight,0.0
+Redding,Sun Nov 22 23:39:46 +0000 2020,CA,@CindyKendrick11 @Cielo10131 Happy thanksgiving 🍁,0.8
+Holbrook,Sun Nov 22 23:39:53 +0000 2020,NY,"Here's a first: Halloween 🎃, Thanksgiving  🦃 and Christmas 🎄 together. https://t.co/jgTSSpljeE",0.25
+Killeen,Sun Nov 22 23:40:16 +0000 2020,TX,"@airquai23 alike as hell, unless i’m tripping??",0.0
+Houma,Sun Nov 22 23:40:23 +0000 2020,LA,Just got word that I’m getting off at 12 on thanksgiving!🙌🏽,0.0
+Baton Rouge,Sun Nov 22 23:40:27 +0000 2020,LA,Y’all getting dressed up for thanksgiving to sit in the living room ?,0.0
+Oklahoma City,Sun Nov 22 23:40:29 +0000 2020,OK,Time to get your holiday session in!  Availability Thanksgiving Weekend.  Follow this link to schedule!… https://t.co/48abngjbDv,0.0
+San Diego,Sun Nov 22 23:40:34 +0000 2020,CA,@just_mindy That looks fabulous. There’s nothing I love more than the dressing on Thanksgiving and I’m skipping it… https://t.co/W7h6jmI90o,0.4666666666666666
+Denver,Sun Nov 22 23:41:13 +0000 2020,CO,@illicit69kitty-Im up for a road trip/delivery 😛 https://t.co/kbnjwWfLo0,0.0
+Las Vegas,Sun Nov 22 23:41:15 +0000 2020,NV,Anyone on here watch Heavy Trip movie on Prime?? Frickin hilarious!!!! https://t.co/N2Kx8r5tiY,0.4
+Portland,Sun Nov 22 23:41:16 +0000 2020,OR,Love the not at all out of touch AMAs happening live to kick off Thanksgiving week in a year most of us will be eat… https://t.co/KP4JbWpso3,0.37878787878787873
+Sacramento,Sun Nov 22 23:41:31 +0000 2020,CA,Trump Ditches Mar-A-Lago For White House on Thanksgiving | The Tonight Show https://t.co/RGJWSjWxNj via @YouTube oh… https://t.co/FPeXVe6rJw,0.0
+Los Angeles,Sun Nov 22 23:41:53 +0000 2020,CA,Unexpected trip to Target &amp; Ross. Spent about $300 for I don’t even remember what. Happy holidays...,0.26666666666666666
+Fresno,Sun Nov 22 23:41:54 +0000 2020,CA,My whole family has COVID so I can’t go home or spend thanksgiving with them.... fuck 2020 man 🤦🏼‍♀️,-0.1
+Des Moines,Sun Nov 22 23:42:00 +0000 2020,IA,I’ve transitioned from the “it’s a bummer I won’t see my family” phase of our canceled Thanksgiving and abruptly en… https://t.co/OHiFMeyZY6,-0.125
+Weymouth,Sun Nov 22 23:42:14 +0000 2020,MA,Sad but true 😞 #Thanksgiving2020 #Christmas2020 &amp; #NewYearsEve #COVID19 https://t.co/AmnyXs5eDZ,-0.07500000000000001
+Boardman,Sun Nov 22 23:42:35 +0000 2020,OH,I wonder if @mirandalambert will have this on her Thanksgiving dinner table this year? #nobake🦃,0.0
+Irving,Sun Nov 22 23:42:48 +0000 2020,TX,So the #1 story on the 5:00 news: STAY HOME on Thanksgiving! COVID cases raising in record numbers!! Story #2 - her… https://t.co/aehsd4oDIS,0.0
+Anaheim,Sun Nov 22 23:43:15 +0000 2020,CA,#If2020WereAThanksgivingDish https://t.co/tzkT8TBVfq,0.0
+San Leandro,Sun Nov 22 23:43:18 +0000 2020,CA,Who needs some yams for thanksgiving 😈🍑 https://t.co/8fYuWSUmOD,0.0
+Winchester,Sun Nov 22 23:43:18 +0000 2020,NV,"play your cards right. @ Las Vegas Strip, Las Vegas, Nevada https://t.co/GjXIT6e8aH",0.2857142857142857
+La Verne,Sun Nov 22 23:43:19 +0000 2020,CA,A year ago today I was on route to Frankfurt on a gorgeous @lufthansa A-380. I miss traveling.,0.7
+Spring,Sun Nov 22 23:43:55 +0000 2020,TX,My nigga 30th birthday on thanksgiving this year too 😔,0.0
+Ocoee,Sun Nov 22 23:44:10 +0000 2020,FL,"How is a game not cancelled because of COVID, if you traveled to FSU with a COVID positive player and that was what… https://t.co/M7uAD2X2y6",-0.08636363636363638
+Cherryville,Sun Nov 22 23:44:10 +0000 2020,NJ,@ReganSmith Put ours up today but not lighting until Thanksgiving!,0.0
+Bakersfield,Sun Nov 22 23:44:16 +0000 2020,CA,Triple the 7!,0.0
+Belmont,Sun Nov 22 23:44:26 +0000 2020,NC,#If2020WereAThanksgivingDish https://t.co/AhBx7RVM3i,0.0
+Laurel,Sun Nov 22 23:44:31 +0000 2020,VA,#if2020wasaThanksGivingDish it would be string bean casserole. Some people like it but not many.,-0.25
+McKinney,Sun Nov 22 23:44:50 +0000 2020,TX,Not being with my family for Thanksgiving breaks my heart but I’m doing it to see them all again for a long time in… https://t.co/7viSu48fPj,-0.05
+Waterman Point,Sun Nov 22 23:44:55 +0000 2020,WA,"Thanksgiving is the one time of year when I get to see some of my family, but I also would rather see them for more… https://t.co/krJELvwDN5",0.0
+South Lake Tahoe,Sun Nov 22 23:44:56 +0000 2020,CA,"Thanksgiving Meal today:
+
+Me: What are you thankful for, son?
+
+Son: The Earth. 
+
+Me: Why are you thankful for the E… https://t.co/3RhXYvWs3m",0.0
+Greensboro,Sun Nov 22 23:45:04 +0000 2020,NC,if im not in atlanta eating a hot plate of thanksgiving food on thursday i stg imma cry.,0.25
+Hackensack,Sun Nov 22 23:45:13 +0000 2020,NJ,Benefits of canceled thanksgiving: I won’t have to sit at the “kids table” for the 38th consecutive year,0.0
+Hamden,Sun Nov 22 23:45:20 +0000 2020,CT,"Beets turnips carrots and celery for Thanksgiving from the backyard garden @ Hamden, Connecticut https://t.co/68M1OrGiQO",0.0
+Los Angeles,Sun Nov 22 23:45:37 +0000 2020,CA,My outfit for my family’s virtual thanksgiving https://t.co/iFXqrQmit6,0.0
+Carmel,Sun Nov 22 23:45:42 +0000 2020,IN,"He has arrived😍😷🇺🇸
+#airforcemom#thanksgiving2020 @ Carmel, Indiana https://t.co/MOI3pNr0vd",0.0
+Chelsea,Sun Nov 22 23:45:52 +0000 2020,MI,Lil PSA my dad and i were planning on going to a family friend’s for thanksgiving-just 3 other people who all take… https://t.co/2PamApbjI7,-0.125
+Houghton,Sun Nov 22 23:46:07 +0000 2020,MI,Y'all planning what to have for Thanksgiving and I'm over here planning what to do with my leftover turkey. @ Hough… https://t.co/mDHt7kxbtm,0.0
+Waukee,Sun Nov 22 23:46:18 +0000 2020,IA,My Dad said he’s cutting his #Thanksgiving stuffing recipe in half this year because it’s just the four of us celeb… https://t.co/FRDifERHel,-0.3833333333333333
+Grapevine,Sun Nov 22 23:46:19 +0000 2020,TX,#DFW is currently experiencing departure delays between 16 mins and 30 mins due to RWY:Construction #flightdelay https://t.co/mWuvKULvId,-0.0625
+Bay City,Sun Nov 22 23:46:22 +0000 2020,TX,@DominoBomino I thought my shit was just tripping smh,-0.2
+Virginia Beach,Sun Nov 22 23:46:24 +0000 2020,VA,Come to death valley or pay for their travel?? Dawg go somewhere,0.0
+Chicago,Sun Nov 22 23:46:27 +0000 2020,IL,Why travel when you can stay home and listen to every Bond song ever made?! https://t.co/g9axa371Vw,0.0
+Schaumburg,Sun Nov 22 23:46:42 +0000 2020,IL,Chicago tantra Goddess Diana wishes everyone a beautiful Thanksgiving Holiday in Chicago 🦃 https://t.co/MkjfxMzgep via @GoddessDianna,0.85
+Queens,Sun Nov 22 23:46:58 +0000 2020,NY,"@Taeler_Hendrix The match Taker had on wweraw in the shopping mall against triple h, beating triple h on an escalator.",0.0
+Charlotte,Sun Nov 22 23:47:12 +0000 2020,NC,Shawty Is A Stripper 💋🗣 - “Shoutout to all them ambitious strippers 🤑💰”. #StripperBooty #Stripper #StripperPole… https://t.co/VZIg7HpuBA,0.25
+Phoenix,Sun Nov 22 23:47:25 +0000 2020,AZ,Wow Rona really took the best bailes and trips away from us 😩🥺 I’m just trying to live my best life 😭😭,0.4872727272727273
+Plymouth,Sun Nov 22 23:47:34 +0000 2020,MI,"Broke: Arguing about electoral politics with relatives over Thanksgiving dinner.
+
+Woke: Arguing that COVID vaccines… https://t.co/CX9M0H5X5h",0.0
+Honolulu,Sun Nov 22 23:47:45 +0000 2020,HI,How every trip should end https://t.co/IagHbO8SPC,0.0
+Murfreesboro,Sun Nov 22 23:47:54 +0000 2020,TN,if I could drive- I’d be taking an impulsive self road trip to anywhere right about now. I miss driving. I miss back roads &amp; adventures,0.14285714285714285
+Los Angeles,Sun Nov 22 23:47:56 +0000 2020,CA,Today’s flight over the Westlake District of LA. #losangeles #mavicair2 @ Westlake District https://t.co/kwgS7dm4wb,0.0
+McKinney,Sun Nov 22 23:47:59 +0000 2020,TX,@UTEPete Such a great comic strip! 👍🏻😊 Read the interview w CG. Awesome! 👍🏻,0.528125
+Orlando,Sun Nov 22 23:47:59 +0000 2020,FL,@eyeslayah Aww! I want an Isaiah thanksgiving feast haha,0.2875
+North Richland Hills,Sun Nov 22 23:48:03 +0000 2020,TX,early thanksgiving today bc my dad is in town and boiiii i’m stuffed,0.1
+Irving,Sun Nov 22 23:48:11 +0000 2020,TX,GREAT TRIPLE OPTION!!!,1.0
+Milton,Sun Nov 22 23:48:12 +0000 2020,MA,@PatThomas1964 One sure sign of Thanksgiving: Alice’s Restaurant.,0.5
+Los Angeles,Sun Nov 22 23:48:15 +0000 2020,CA,"welp. 
+if you can...please order take-out this thanksgiving week!!!! 🙏💔",0.0
+Largo,Sun Nov 22 23:48:39 +0000 2020,FL,"He said i love to travel too, why NOT make that bag",0.5
+East Perrine,Sun Nov 22 23:48:44 +0000 2020,FL,How do you call that a touchdown prior to the strip!!??  Are you f-ing kidding me?  I know it’ll be overturned but damn!  #MiamiDolphins,0.0
+Morgantown,Sun Nov 22 23:48:53 +0000 2020,WV,so ready for these thanksgiving day tips i better receive 🤠,0.35
+Tamarac,Sun Nov 22 23:48:58 +0000 2020,FL,VanGinkle!!!! Stripped it! 🏈,0.0
+Dublin,Sun Nov 22 23:49:02 +0000 2020,OH,". @OhioHealth medical expert urges toned-down Thanksgiving celebration, even with negative COVID-19 result https://t.co/hQi2LaXO7n",-0.15
+Staten Island,Sun Nov 22 23:49:03 +0000 2020,NY,I want to start a new Thanksgiving tradition,0.13636363636363635
+Chicago,Sun Nov 22 23:49:03 +0000 2020,IL,PlayStation 5 games have arrived @ Video Strip - Movie and Game Rental Store https://t.co/X1Aii2JnkX,-0.4
+New Braunfels,Sun Nov 22 23:49:15 +0000 2020,TX,"I got depressed because last year I worked Thanksgiving, Christmas, New years eve, &amp; New years day.",0.0909090909090909
+Romulus,Sun Nov 22 23:49:19 +0000 2020,MI,Made the flight. 👋🏾✈️,0.0
+Cookeville,Sun Nov 22 23:49:22 +0000 2020,TN,it’s awkward conversation at thanksgiving dinner for me..,-0.6
+Phoenix,Sun Nov 22 23:49:29 +0000 2020,AZ,Happy I don’t breathe hard after I climb up two flights of stairs anymore. Lmaooooooooooo,0.25416666666666665
+Minneapolis,Sun Nov 22 23:49:30 +0000 2020,MN,@TrippenJillies ahhh. i’ve been wondering!,0.0
+Nashville,Sun Nov 22 23:49:40 +0000 2020,TN,Help me find this dog’s humans for Thanksgiving! Female found in downtown #nashville #lostdog #founddog #missing… https://t.co/tFWckXUo9e,0.0
+Dallas,Sun Nov 22 23:49:45 +0000 2020,TX,"Update, after over an hour, and two trips inside to ask for help, manager came out and said they gave my order to s… https://t.co/QvVzXH2oUd",0.0
+Merced,Sun Nov 22 23:49:53 +0000 2020,CA,When you go to cancel your Thanksgiving flights and realized you never actually booked one to come back to Cali. 😅,0.0
+Merced,Sun Nov 22 23:49:53 +0000 2020,CA,When you go to cancel your Thanksgiving flights and realized you never actually booked one to come back to Cali. 😅,0.0
+Webster Groves,Sun Nov 22 23:50:00 +0000 2020,MO,@morninggloria I have double Thanksgiving every year. Next year’s gonna be fucking epic.,0.03333333333333333
+Chicago,Sun Nov 22 23:50:03 +0000 2020,IL,Thanksgiving coming up and everybody talking about all this nasty ass food 🤮 WTF is dressing &amp; yams 🤢,-0.75
+Belleville,Sun Nov 22 23:50:04 +0000 2020,IL,finally got all my Thanksgiving grocery shopping done 🙌🏻,0.0
+Washington,Sun Nov 22 23:50:20 +0000 2020,DC,"Hey all y'all planning to go home to celebrate Thanksgiving with your families....
+#Thanksgiving https://t.co/HPFUVaK7BG",0.0
+Ada,Sun Nov 22 23:50:41 +0000 2020,OK,My favorite Thanksgiving video...cuz it’s so true! 😂😂 @nbcsnl https://t.co/ZcS3TS35J9,0.46875
+White Bear Lake,Sun Nov 22 23:50:46 +0000 2020,MN,"🚨 🚨 Okay, local people. Charlie Brown Thanksgiving is airing ONCE on PBS at 6:30 pm Central 2night. Let’s make this happen for ourselves.",0.16666666666666666
+San Tan Valley,Sun Nov 22 23:50:53 +0000 2020,AZ,@inminivanhell They tasted delish... but I’ve never had them with Chex on top.. we are having Thanksgiving early be… https://t.co/V176c6qXJ0,0.3
+Gonzales,Sun Nov 22 23:50:54 +0000 2020,LA,"Who Can I Run To When I’m Sick Of These Hoes, You The Fucking One I Come To So Don’t Trip When I Go..",-0.6571428571428571
+Fort Wayne,Sun Nov 22 23:50:55 +0000 2020,IN,what a fucking loser. you’re legally allowed to go to thanksgiving dinner idiot. it’s not like that at all. your da… https://t.co/5gk3VSDZww,-0.39999999999999997
+San Diego,Sun Nov 22 23:50:56 +0000 2020,CA,let’s actually just cancel thanksgiving altogether,0.0
+Belleville,Sun Nov 22 23:51:08 +0000 2020,NJ,Mims 💪🏻💪🏻💪🏻 #TakeFlight,0.0
+Oakland,Sun Nov 22 23:51:09 +0000 2020,NJ,Herndon actually catching a TD what’s going on out there? #TakeFlight,0.6
+Chicago,Sun Nov 22 23:51:16 +0000 2020,IL,Just 12 more days til we close for the season. NUTELLA CUSTARD tonight. Stock up for Thanksgiving and the Winter. @… https://t.co/j3WGEB2kOW,0.5
+Los Angeles,Sun Nov 22 23:51:33 +0000 2020,CA,"LA county just shut down all outdoor dining, effective Wednesday, right before thanksgiving - obviously it’s the ri… https://t.co/iP5LRoS1JD",0.18253968253968253
+Hazelwood,Sun Nov 22 23:51:34 +0000 2020,MO,#If2020WereAThanksgivingDish it would be someone bringing Kraft Mac &amp; Cheese when you were expecting that delicious… https://t.co/XXUWk83QQB,0.0
+Orlando,Sun Nov 22 23:51:35 +0000 2020,FL,She did it! She’s a wizard⚡️ #hogwarts #universalstudiosorlando #thanksgivingbreak @ The Wizarding World of Harry P… https://t.co/Wvdv8Rfrnb,0.0
+Indianapolis,Sun Nov 22 23:51:48 +0000 2020,IN,Middle school. Tripped in the hall. Broke my arm. Good news was I got out of having to do stupid choreography in th… https://t.co/9m4wO2zEDW,-0.033333333333333326
 Quincy,Sun Nov 22 23:51:50 +0000 2020,MA,"Chris Herndon.....touchdown??? Excuse me??
-#TakeFlight | #FantasyFootball https://t.co/kljH38fvtl"
-Lake Erie Beach,Sun Nov 22 23:52:30 +0000 2020,NY,@topknottraveler A big bag.
-Pawtucket,Sun Nov 22 23:52:47 +0000 2020,RI,"If you want em, it aint nun’ but a flight luv don’t let that stop you!"
-Antioch,Sun Nov 22 23:53:05 +0000 2020,CA,Graduation is next Friday. &amp; I really wanna go on a lil mini trip... but that 12.2 million cases in the US? I’m just gon stay home.
-Frankfort,Sun Nov 22 23:53:10 +0000 2020,IL,"Just got from my hunting trip in Putnam, Illinois. @elli_swanson22 n me got a duck. #hunting @IHartFastpitch… https://t.co/MEzrdulVrO"
-Ronkonkoma,Sun Nov 22 23:53:29 +0000 2020,NY,#TakeFlight https://t.co/v5MnpoDcxr
-Everett,Sun Nov 22 23:54:54 +0000 2020,WA,@hyfethemadman Fr I’m trippin if they know this record lol song hella slept on in the states
-Pleasant Valley,Sun Nov 22 23:55:29 +0000 2020,IN,Made a short little trip today and listened to @thedraftsmanFB and @BrettKollmann’s Bootleg Football and it was so… https://t.co/REATWW0WBa
-Kernersville,Sun Nov 22 23:55:48 +0000 2020,NC,@LaurynnnG @TacosNSlurpees @Panthers @roaringriot @AmericanAir @Fire_Burns99 Hope I get to see you next time!!!!  Safe travels home!
-New Orleans,Sun Nov 22 23:56:08 +0000 2020,LA,"@BishopTTriplett I wonder as well what bible they're reading. 2 Kings 17:33 KJV — They feared the LORD, and served… https://t.co/0FLTTtqqkD"
-Virginia Beach,Sun Nov 22 23:56:23 +0000 2020,VA,Legit traveled with the team and tested positive. But he blaming the team that hasnt had a positive test since Sept… https://t.co/EBMn3A4raU
-Westland,Sun Nov 22 23:56:25 +0000 2020,MI,I wanna take a trip 😭
+#TakeFlight | #FantasyFootball https://t.co/kljH38fvtl",-0.05
+Flagstaff,Sun Nov 22 23:52:03 +0000 2020,AZ,"i have to say, having finals week(end), graduation weekend, and thanksgiving all in the same week and WORKing that… https://t.co/kKey8ubJgA",0.0
+Lake Erie Beach,Sun Nov 22 23:52:30 +0000 2020,NY,@topknottraveler A big bag.,0.0
+Pawtucket,Sun Nov 22 23:52:47 +0000 2020,RI,"If you want em, it aint nun’ but a flight luv don’t let that stop you!",0.0
+Antioch,Sun Nov 22 23:53:05 +0000 2020,CA,Graduation is next Friday. &amp; I really wanna go on a lil mini trip... but that 12.2 million cases in the US? I’m just gon stay home.,0.1
+Frankfort,Sun Nov 22 23:53:10 +0000 2020,IL,"Just got from my hunting trip in Putnam, Illinois. @elli_swanson22 n me got a duck. #hunting @IHartFastpitch… https://t.co/MEzrdulVrO",0.0
+San Francisco,Sun Nov 22 23:53:12 +0000 2020,CA,Gonna need every politician to take a photo of their Thanksgiving next week so I can know whether I respect them or not,0.0
+Ronkonkoma,Sun Nov 22 23:53:29 +0000 2020,NY,#TakeFlight https://t.co/v5MnpoDcxr,0.0
+Washington,Sun Nov 22 23:53:33 +0000 2020,DC,"Going home for Thanksgiving?
+Fuck around and find out.
+#Thanksgiving2020 https://t.co/XVlNGX9MoG",-0.4
+Washington,Sun Nov 22 23:54:01 +0000 2020,DC,"Going home for Thanksgiving?
+Fuck around and find out.
+#Thanksgiving2020 https://t.co/rWJikJeIqx",-0.4
+Oscoda,Sun Nov 22 23:54:15 +0000 2020,MI,CNBC: Here's how infectious disease doctors and public health experts are safely celebrating Thanksgiving this year… https://t.co/uf3WNrSSg8,0.25
+Joliet,Sun Nov 22 23:54:17 +0000 2020,IL,Chitterlings #If2020WereAThanksgivingDish https://t.co/znOCzfhdoS,0.0
+Richmond West,Sun Nov 22 23:54:17 +0000 2020,FL,Happy Thanksgiving week! I’ll be going to work. Top 10 Silver Age Comics is our show on Wednesday with… https://t.co/YkSYl8Jmpr,0.75
+Everett,Sun Nov 22 23:54:54 +0000 2020,WA,@hyfethemadman Fr I’m trippin if they know this record lol song hella slept on in the states,0.8
+Pasadena,Sun Nov 22 23:55:23 +0000 2020,CA,"The Thanksgiving baking has begun! Side note: Using my mom’s kitchen scale makes me feel like I’m on the GBBO. Ready, set, bake!",0.25
+Pleasant Valley,Sun Nov 22 23:55:29 +0000 2020,IN,Made a short little trip today and listened to @thedraftsmanFB and @BrettKollmann’s Bootleg Football and it was so… https://t.co/REATWW0WBa,-0.19583333333333333
+Toms River,Sun Nov 22 23:55:31 +0000 2020,NJ,“You like that “is carving the Dallas D up like he’s cooking thanksgiving dinner 🤢,0.0
+Kernersville,Sun Nov 22 23:55:48 +0000 2020,NC,@LaurynnnG @TacosNSlurpees @Panthers @roaringriot @AmericanAir @Fire_Burns99 Hope I get to see you next time!!!!  Safe travels home!,0.3125
+St Petersburg,Sun Nov 22 23:55:50 +0000 2020,FL,@skiminer36 I was looking forward to cooking Thanksgiving dinner but we decided we’re going out. I’m honestly bumme… https://t.co/eMxubg47dx,0.6
+New Orleans,Sun Nov 22 23:56:08 +0000 2020,LA,"@BishopTTriplett I wonder as well what bible they're reading. 2 Kings 17:33 KJV — They feared the LORD, and served… https://t.co/0FLTTtqqkD",0.0
+Virginia Beach,Sun Nov 22 23:56:23 +0000 2020,VA,Legit traveled with the team and tested positive. But he blaming the team that hasnt had a positive test since Sept… https://t.co/EBMn3A4raU,0.22727272727272727
+Westland,Sun Nov 22 23:56:25 +0000 2020,MI,I wanna take a trip 😭,0.0
 San Diego,Sun Nov 22 23:56:26 +0000 2020,CA,"Great win Yuze. Hard work is paying off. 👏🏻👏🏻👏🏻
 
-#FlightScopeFamily #AJGAPartner"
-Shaker Heights,Sun Nov 22 23:57:08 +0000 2020,OH,DM your flight info
+#FlightScopeFamily #AJGAPartner",0.4361111111111111
+Ventura,Sun Nov 22 23:56:47 +0000 2020,CA,If you planned on dining on a patio for Thanksgiving please consider picking it up and taking it home.  #Thanksgiving2020,0.0
+Everett,Sun Nov 22 23:56:51 +0000 2020,WA,What they don’t tell you is how many black natives they massacred during the “original thanksgiving” they like to m… https://t.co/m10Tm4K7BI,0.23611111111111113
+Fresno,Sun Nov 22 23:56:58 +0000 2020,CA,Thanksgivings a few days away... my time to shine 🦾 https://t.co/2S5i33Iotp,-0.2
+Chesapeake,Sun Nov 22 23:57:04 +0000 2020,VA,I can’t wait to have a food baby on thanksgiving 😙,0.0
+Santa Rosa,Sun Nov 22 23:57:05 +0000 2020,CA,"@ChloeMorello I do not partake in thanksgiving, it’s a lie and a waste of money and I’m vegan so no thank you.",-0.2
+Shaker Heights,Sun Nov 22 23:57:08 +0000 2020,OH,DM your flight info,0.0
+Hollywood,Sun Nov 22 23:57:37 +0000 2020,FL,#If2020WereAThanksgivingDish https://t.co/Dz7Dk5aXIX,0.0
+North Cape May,Sun Nov 22 23:57:37 +0000 2020,NJ,"Thursday, November 26th. 5-7. Replay Sunday 7-9.
+Happy Thanksgiving! #Capemayradio https://t.co/icOFsgTjvL",1.0
+Hamburg,Sun Nov 22 23:57:41 +0000 2020,MI,Happy thanksgiving week remember why we say thanks. #NativeAmericanHeritageMonth https://t.co/zKG3SM6J0Q,0.5
 San Diego,Sun Nov 22 23:57:55 +0000 2020,CA,"Amazing tournament Caroline⛳️ 
 
-#FlightScopeFamily #AJGAPartner"
-Virginia Beach,Sun Nov 22 23:58:06 +0000 2020,VA,Ask Dabo why the kid showing symptoms all week was allowed to practice and travel with the team. You just played tw… https://t.co/hKOM7ZonCT
-Gardere,Sun Nov 22 23:58:21 +0000 2020,LA,@noperfectionss_ Be tripping cuz 😂
-Berkeley,Sun Nov 22 23:58:31 +0000 2020,CA,@travelfish @zax2000 Booking Walter Spies House at the Tjampuhan for 2028. I'll buy you lunch at Murni's or wherever is open then
-Chicago,Sun Nov 22 23:58:32 +0000 2020,IL,This pilgrim cancelled Thanksgiving travel
-Franconia,Sun Nov 22 23:58:43 +0000 2020,VA,@teroterotero The implosion/self-destruction continues.  Going after the Georgia governor was a trip wire along the… https://t.co/GDFdgBOZL2
-Manhattan,Sun Nov 22 23:59:07 +0000 2020,NY,Weekend Packing List: Traveling With an Infant Under 6 Months  https://t.co/fSLu3dNOIU
-Sacramento,Sun Nov 22 23:59:17 +0000 2020,CA,Ok am I trippin or have the Kings literally done nothing in free agency ??
-Brooklyn,Sun Nov 22 23:59:42 +0000 2020,NY,@TrekCore But didn't the burn stop warp travel throughout most of the alpha quadrant?
-Bloomfield,Sun Nov 22 23:59:53 +0000 2020,NJ,Getting a little worried about the tank. #TakeFlight
+#FlightScopeFamily #AJGAPartner",0.6000000000000001
+Virginia Beach,Sun Nov 22 23:58:06 +0000 2020,VA,Ask Dabo why the kid showing symptoms all week was allowed to practice and travel with the team. You just played tw… https://t.co/hKOM7ZonCT,0.0
+Las Cruces,Sun Nov 22 23:58:08 +0000 2020,NM,About to dive into my first Thanksgiving meal 🥘,0.25
+Owensboro,Sun Nov 22 23:58:11 +0000 2020,KY,I have four trees up in my house before thanksgiving....🤷🏼‍♀️ #its2020,0.0
+Columbus,Sun Nov 22 23:58:14 +0000 2020,GA,On thanksgiving don’t text me no fuccin happy thanksgiving just eat ya food &amp; stfu,0.8
+Jefferson City,Sun Nov 22 23:58:15 +0000 2020,MO,Happy Thanksgiving from our family to your family. Please take the time to tell your family and friends how much yo… https://t.co/rD9dSDMB8G,0.5
+Gardere,Sun Nov 22 23:58:21 +0000 2020,LA,@noperfectionss_ Be tripping cuz 😂,0.0
+Santa Monica,Sun Nov 22 23:58:26 +0000 2020,CA,"@mongeliliana A know A place called home does adopt a family for both Thanksgiving and Christmas
+https://t.co/e1GUjtlkVZ",0.0
+Berkeley,Sun Nov 22 23:58:31 +0000 2020,CA,@travelfish @zax2000 Booking Walter Spies House at the Tjampuhan for 2028. I'll buy you lunch at Murni's or wherever is open then,0.0
+Chicago,Sun Nov 22 23:58:32 +0000 2020,IL,This pilgrim cancelled Thanksgiving travel,0.0
+Chicago,Sun Nov 22 23:58:32 +0000 2020,IL,This pilgrim cancelled Thanksgiving travel,0.0
+Franconia,Sun Nov 22 23:58:43 +0000 2020,VA,@teroterotero The implosion/self-destruction continues.  Going after the Georgia governor was a trip wire along the… https://t.co/GDFdgBOZL2,0.0
+Minneapolis,Sun Nov 22 23:59:02 +0000 2020,MN,I know know I’m not the only #Vikings fan having a few @RandyMoss Thanksgiving ‘98 flashbacks!! JJ for real AT aint bad either!! #skol,-0.278125
+Lake Forest,Sun Nov 22 23:59:06 +0000 2020,CA,"Thanksgiving Pasta Stuffing! @ Lake Forest, California https://t.co/nsFWHSXQuQ",0.0
+Manhattan,Sun Nov 22 23:59:07 +0000 2020,NY,Weekend Packing List: Traveling With an Infant Under 6 Months  https://t.co/fSLu3dNOIU,0.0
+Sacramento,Sun Nov 22 23:59:17 +0000 2020,CA,Ok am I trippin or have the Kings literally done nothing in free agency ??,0.45
+Manchester,Sun Nov 22 23:59:24 +0000 2020,MO,I need help stl folks. I get off at 8 on thanksgiving. I need a place to eat/pick up food. Any help?,0.0
+Rockville Centre,Sun Nov 22 23:59:31 +0000 2020,NY,"""Tita mama said youre no longer invited to thanksgiving"" haha @ Rockville Centre, New York https://t.co/8RNeIUvwmu",0.16818181818181818
+Sutton,Sun Nov 22 23:59:36 +0000 2020,MA,"Family traditions: ""We should just be thankful for being together. I think that's what they mean by 'Thanksgiving,'… https://t.co/eaZBfeEA1R",-0.3125
+Brooklyn,Sun Nov 22 23:59:42 +0000 2020,NY,@TrekCore But didn't the burn stop warp travel throughout most of the alpha quadrant?,0.5
+West Hollywood,Sun Nov 22 23:59:47 +0000 2020,CA,@RickAndGriff @pablohernandez7 Now that’s some Thanksgiving stuffing I could get into!,0.0
+Bloomfield,Sun Nov 22 23:59:53 +0000 2020,NJ,Getting a little worried about the tank. #TakeFlight,-0.1875

@@ -12,14 +12,15 @@ import zipfile
 import datetime 
 import json
 import pandas as pd
-from textblob import TextBlob
+
 # load keywords
 keywords  = [
-    'thanksgiving',
     'travel',
     'trip',
     'flight',
     ]
+
+data = []
 
 # open the zipfile
 with zipfile.ZipFile('geoTwitter' + args.date + '.zip') as archive:
@@ -31,18 +32,14 @@ with zipfile.ZipFile('geoTwitter' + args.date + '.zip') as archive:
         # open the inner file
         with archive.open(filename) as f:
 
-            tweets = [] 
-            
             # loop over each line in the inner file
             for line in f:
                 # load the tweet as a python dictionary
                 tweet = json.loads(line)
-
-                text = tweet['text'].lower()
                 
                 # search hashtags
                 for keyword in keywords:
-                    if keyword in text:
+                    if keyword in tweet:
                         if tweet \
                            and isinstance(tweet, dict) \
                            and 'place' in tweet \
@@ -57,11 +54,10 @@ with zipfile.ZipFile('geoTwitter' + args.date + '.zip') as archive:
                             # "verified": main_dict['user']['verified'],
                             "city": tweet['place']['name'],
                             # "country": main_dict['place']['country_code'],
-                            "state": tweet['place']["full_name"][-2:]    
+                            "state": tweet['place']["full_name"][-2:]
                             }
-                            tweets.append(tweet_dict)
+                        data.append(tweet_dict)
 
-
-            df =pd.DataFrame(tweets)
-            df['polarity'] = df.apply(lambda tweet: TextBlob(tweet['text']).sentiment.polarity, axis=1)
-            df.to_csv(args.date + '.csv', index=False)
+            print('Data: ', data)
+            # subfile_df = pd.DataFrame(data)
+            # subfile_df.to_csv(args.date + '.csv', index=False)
