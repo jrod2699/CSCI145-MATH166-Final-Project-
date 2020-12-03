@@ -1,1 +1,1 @@
-# CSCI145-MATH166-Final-Project-
+# CSCI145-MATH166 Final Project
