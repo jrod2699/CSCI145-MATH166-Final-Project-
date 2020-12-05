@@ -14,12 +14,7 @@ import json
 import pandas as pd
 from textblob import TextBlob
 # load keywords
-keywords  = [
-    'thanksgiving',
-    'travel',
-    'trip',
-    'flight',
-    ]
+keywords  = ['world series', 'rays', 'dodgers', 'mlb']
 
 # open the zipfile
 with zipfile.ZipFile('geoTwitter' + args.date + '.zip') as archive:

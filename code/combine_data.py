@@ -1,8 +1,13 @@
 import os
 import glob
 import pandas as pd
+import argparse
 
-os.chdir("/home/sgba2018/CSCI145-MATH166-Final-Project-/data")
+parser = argparse.ArgumentParser()
+parser.add_argument('--data',required=True)
+args = parser.parse_args()
+
+os.chdir("/home/sgba2018/CSCI145-MATH166-Final-Project-/" + args.data)
 
 extension = 'csv'
 
