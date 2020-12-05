@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+
+# command line args
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--date',required=True)
+args = parser.parse_args()
+
+# imports
+import os
+from datetime import datetime 
+import pandas as pd
+import time
+
+df = pd.read_csv('baseball-data/' + args.date + '.csv', error_bad_lines=False, encoding='utf-8 ', engine='python')
+
+df['date'] = df.apply(lambda tweet: datetime.strftime(datetime.strptime(tweet['date'],'%a %b %d %H:%M:%S +0000 %Y'), '%m-%d-%Y'), axis=1)
+
+df.to_csv('baseball-data/' + args.date + '.csv', index=False)
+
