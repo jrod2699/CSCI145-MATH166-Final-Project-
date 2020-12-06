@@ -14,3 +14,7 @@ Looking at the tweet polarity for each state on October 27th shown above, the fi
 Average sentiment on October the 24th also tells an interesting story about the two states. It’s important to note that on October 24th the Rays won Game 4 of the World Series in one of the most dramatic games to ever occur and became an instant-classic. The average twitter sentiment on this day in CA was a meager 0.0 compared to FL’s relatively much more positive sentiment of .1, expressing CA’s discontent and FL’s joy of the events of Game 4.
 
 Overall throughout the entire week that the World Series was played, twitter sentiment was generally positive with FL having a higher positive sentiment of about .1 and CA having a lower positive sentiment of .06.
+
+![](images/polarity_over_time.png)
+
+To understand how polarity varied throughout each day of the week that the World Series occurred, we created a visualization that plots polarity as a function of time. Above is an area graphic displaying tweet polarity across the United States from October 20-October 27. We know that the Tampa Bay Rays won game 2 and game 4 while the Los Angeles Dodgers won game 1, game 3, game 5, and game 6. On October 22nd, the day after the Rays won game 2, and October 24th, the day the Rays won game 4, there were significant spikes in positive sentiment. There were declines in sentiment for each games the Dodgers one, except for the final game, Game 6. This seems to suggest that, perhaps, overall, twitter users were rooting for the underdog, who in this case was the Rays.
