@@ -3,24 +3,32 @@ import argparse
 import pandas as pd
 import nltk
 from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import RegexpTokenizer
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--data',required=True)
+parser.add_argument('--date',required=True)
 args = parser.parse_args()
 
 def get_counts():
     
     stop_words = set(stopwords.words('english'))
-
+    # stop_words.add('https', '#', '?']
     words = []
-
-    with open( args.data + '/combined_data.csv', 'r') as csvfile:
+    # punc = '''!()-[]{};:'"\, <>./?@#$%^&*_~'''
+    tokenizer = RegexpTokenizer("[\w']+")
+    # tokenizer = TweetTokenizer()
+    with open( args.data + '/' + args.date + '.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         next(reader)
         for row in reader:
             text = row[3].lower()
-            word_tokens = word_tokenize(text)
+
+            # for ele in text:
+                # if ele in punc:
+                    # text = text.replace(ele, '')
+            
+            word_tokens = tokenizer.tokenize(text)
             for w in word_tokens:
                 if w not in stop_words:
                     words.append(w)
@@ -34,7 +42,7 @@ def get_counts():
     counts = sort_list(word_counts)
     #write to csv file
     df = pd.DataFrame(counts)
-    df.to_csv(args.data + '/word_count.csv', index=False)
+    df.to_csv(args.data + '/' + args.date + '_word_count.csv', index=False)
 
 def sort_list(list):
     # getting length of list of tuples 
