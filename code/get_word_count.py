@@ -31,6 +31,9 @@ def get_counts():
 
             # remove all urls
             text = pattern.sub('', text)
+
+            # remove numbers from the text
+            text = ''.join([i for i in text if not i.isdigit()])
             
             # for ele in text:
                 # if ele in punc:
