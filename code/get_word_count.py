@@ -38,7 +38,7 @@ def get_counts():
             
             word_tokens = tokenizer.tokenize(text)
             for w in word_tokens:
-                if w not in stop_words:
+                if w not in stop_words and w.isalnum():
                       words.append(w)
 
     words_counted = []
