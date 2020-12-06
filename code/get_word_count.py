@@ -15,7 +15,7 @@ args = parser.parse_args()
 def get_counts():
     
     stop_words = set(stopwords.words('english'))
-    stop_words.update(['(', ')', '-' , '[', ']', '{' , '}' '...', ';' ':', '!', '?', '#'])
+    stop_words.update(['(', ')', '-' , '[', ']', '{' , '}', '…', ';', ':', '!', '?', ',', '.', '@', "'", '"'])
     words = []
     pattern = re.compile('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
     
