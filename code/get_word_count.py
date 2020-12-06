@@ -31,9 +31,9 @@ def get_counts():
         words_counted.append((i,x))
 
     word_counts = sort_list(words_counted)
-    set(word_counts)
+    counts = remove_duplicates(word_counts)
     #write to csv file
-    df = pd.DataFrame(word_counts)
+    df = pd.DataFrame(counts)
     df.to_csv(args.data + '/word_count.csv', index=False)
 
 def sort_list(list):
@@ -47,6 +47,10 @@ def sort_list(list):
                 list[j]= list[j + 1]  
                 list[j + 1]= temp  
     return list 
+
+def remove_duplicates(lst):
+    return list(set([i for i in lst]))
+
 
 def main():
     get_counts()
