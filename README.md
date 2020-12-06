@@ -1,11 +1,11 @@
 # CSCI145-MATH166 Final Project
 
 
-![](across_week map polarity.png)
+![](master/across_week map polarity.png)
 
 For our map visualization, our public online dashboard has an interactive feature where the user can filter the map’s display by date (between October 20-27). Additionally, the user can hover their cursor over each individual state to show the average tweet polarity in a state, given the filtered conditions. Above is a map displaying the average polarity of tweets about the World Series, across the entire the week of the World Series, as related to each state. 
 
-![](october 27 map polarity.png)
+![](master/october 27 map polarity.png)
 
 Looking at the tweet polarity for each state on October 27th shown above, the final game of the World Series, there are some interesting insights we can observe. Perhaps most tellingly is the difference in polarity between Florida and California, the two states where the Rays and Dodgers are based in, respectively. CA had an average tweet polarity of about .088 while FL had an average tweet polarity of about .023. On October 27th the Dodgers won why World Series, making it very clear why the sentiment in CA was more positive than in FL on that day. Additionally, the entire west coast shared positive sentiment on the 27th, with OR and WA having an average positive sentiment value of about .2.
 
