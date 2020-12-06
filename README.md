@@ -1,7 +1,7 @@
 # CSCI145-MATH166 Final Project
 
 
-![](master/across_week map polarity.png)
+![](images/across_week_map_polarity.png)
 
 For our map visualization, our public online dashboard has an interactive feature where the user can filter the map’s display by date (between October 20-27). Additionally, the user can hover their cursor over each individual state to show the average tweet polarity in a state, given the filtered conditions. Above is a map displaying the average polarity of tweets about the World Series, across the entire the week of the World Series, as related to each state. 
 
