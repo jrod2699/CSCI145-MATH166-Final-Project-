@@ -2,8 +2,10 @@ import csv
 import argparse
 import pandas as pd
 import nltk
+import re 
 from nltk.corpus import stopwords
-from nltk.tokenize import RegexpTokenizer
+from nltk.tokenize import RegexpTokenizer, TweetTokenizer
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--data',required=True)
@@ -15,15 +17,21 @@ def get_counts():
     stop_words = set(stopwords.words('english'))
     # stop_words.add('https', '#', '?']
     words = []
+    pattern = re.compile('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
+    
     # punc = '''!()-[]{};:'"\, <>./?@#$%^&*_~'''
-    tokenizer = RegexpTokenizer("[\w']+")
-    # tokenizer = TweetTokenizer()
+    # tokenizer = RegexpTokenizer("[\w']+")
+    tokenizer = TweetTokenizer()
     with open( args.data + '/' + args.date + '.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         next(reader)
         for row in reader:
+            # lowercase all words 
             text = row[3].lower()
 
+            # remove all urls
+            text = pattern.sub('', text)
+            
             # for ele in text:
                 # if ele in punc:
                     # text = text.replace(ele, '')
@@ -31,7 +39,7 @@ def get_counts():
             word_tokens = tokenizer.tokenize(text)
             for w in word_tokens:
                 if w not in stop_words:
-                    words.append(w)
+                      words.append(w)
 
     words_counted = []
     for i in words:
