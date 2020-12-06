@@ -1,0 +1,62 @@
+xc#!/usr/bin/env python3
+
+# command line args
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--date',required=True)
+args = parser.parse_args()
+
+# imports
+import os
+import zipfile
+import datetime 
+import json
+import pandas as pd
+from textblob import TextBlob
+# load keywords
+keywords  = ['world series', 'rays', 'dodgers', 'mlb']
+
+# open the zipfile
+with zipfile.ZipFile('geoTwitter' + args.date + '.zip') as archive:
+
+    # loop over every file within the zip file
+    for i,filename in enumerate(archive.namelist()):
+        print(datetime.datetime.now(),args.date,filename)
+
+        # open the inner file
+        with archive.open(filename) as f:
+
+            tweets = [] 
+            
+            # loop over each line in the inner file
+            for line in f:
+                # load the tweet as a python dictionary
+                tweet = json.loads(line)
+
+                text = tweet['text'].lower()
+                
+                # search hashtags
+                for keyword in keywords:
+                    if keyword in text:
+                        if tweet \
+                           and isinstance(tweet, dict) \
+                           and 'place' in tweet \
+                           and isinstance(tweet['place'], dict) \
+                           and tweet['place']['country_code'] == 'US' \
+                           and tweet['place']['place_type']=='city':
+
+                           # print(main_dict)
+                            tweet_dict = {
+                            "text": tweet['text'],
+                            "date": tweet["created_at"],
+                            # "verified": main_dict['user']['verified'],
+                            "city": tweet['place']['name'],
+                            # "country": main_dict['place']['country_code'],
+                            "state": tweet['place']["full_name"][-2:]    
+                            }
+                            tweets.append(tweet_dict)
+
+
+            df =pd.DataFrame(tweets)
+            df['polarity'] = df.apply(lambda tweet: TextBlob(tweet['text']).sentiment.polarity, axis=1)
+            df.to_csv(args.date + '.csv', index=False)
