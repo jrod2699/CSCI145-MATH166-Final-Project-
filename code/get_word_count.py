@@ -30,8 +30,8 @@ def get_counts():
         x = words.count(i)
         words_counted.append((i,x))
 
-    word_counts = sort_list(words_counted)
-    counts = remove_duplicates(word_counts)
+    word_counts = remove_duplicates(words_counted)
+    counts = sort_list(word_counts)
     #write to csv file
     df = pd.DataFrame(counts)
     df.to_csv(args.data + '/word_count.csv', index=False)
